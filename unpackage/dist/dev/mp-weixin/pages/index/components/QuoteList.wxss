@@ -1,0 +1,99 @@
+/* 水平间距 */
+/* 水平间距 */
+.QuoteList-container .title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 30rpx;
+}
+.QuoteList-container .title-container .title-name {
+  color: #1A1A1A;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.QuoteList-container .title-container .more {
+  display: flex;
+  align-items: center;
+}
+.QuoteList-container .title-container .more .more-name {
+  color: #808080;
+  font-size: 24rpx;
+  margin-right: 20rpx;
+}
+.QuoteList-container .title-container .more .icon {
+  width: 8px;
+  height: 13px;
+  background-color: #999999;
+}
+.QuoteList-container .data-list .quote {
+  width: 630rpx;
+  background: #FFFFFF;
+  border-radius: 24rpx;
+  padding: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.QuoteList-container .data-list .quote .quote-img {
+  width: 222rpx;
+  height: 222rpx;
+  border-radius: 22rpx;
+}
+.QuoteList-container .data-list .quote .quote-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 380rpx;
+}
+.QuoteList-container .data-list .quote .quote-right .quote-title {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.QuoteList-container .data-list .quote .quote-right .quote-details {
+  font-size: 22rpx;
+  color: #999999;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.QuoteList-container .data-list .quote .quote-right .label-container {
+  display: flex;
+  align-items: center;
+}
+.QuoteList-container .data-list .quote .quote-right .label-container .label {
+  margin-right: 8rpx;
+  padding: 5rpx 9rpx;
+  background-color: #E6ECFF;
+  color: #2858FF;
+  font-size: 22rpx;
+  border-radius: 5rpx;
+  margin-top: 26rpx;
+}
+.QuoteList-container .data-list .quote .quote-right .price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+.QuoteList-container .data-list .quote .quote-right .price-container .price .text1 {
+  color: #999999;
+  font-size: 22rpx;
+}
+.QuoteList-container .data-list .quote .quote-right .price-container .price .text2 {
+  color: #FF563F;
+  font-size: 32rpx;
+}
+.QuoteList-container .data-list .quote .quote-right .price-container .price .text3 {
+  color: #FF563F;
+  font-size: 22px;
+}
+.QuoteList-container .data-list .quote .quote-right .price-container .quote-btn {
+  width: 140rpx;
+  height: 60rpx;
+  background: #2858FF;
+  border-radius: 12px;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 60rpx;
+}

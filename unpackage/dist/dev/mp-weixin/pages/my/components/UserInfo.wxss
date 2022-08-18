@@ -1,0 +1,137 @@
+/* 水平间距 */
+/* 水平间距 */
+.UserInfo-container {
+  padding-top: 70rpx;
+  display: flex;
+  flex-direction: column;
+}
+.UserInfo-container .setting {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30rpx;
+}
+.UserInfo-container .setting .icon {
+  width: 43rpx;
+  height: 40rpx;
+  display: block;
+  margin-left: 64rpx;
+}
+.UserInfo-container .userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 690rpx;
+  margin: 50rpx auto;
+}
+.UserInfo-container .userInfo .left .avatar {
+  width: 114rpx;
+  height: 114rpx;
+  z-index: 1;
+  position: relative;
+  border-radius: 50%;
+}
+.UserInfo-container .userInfo .left .identity {
+  margin-top: -40rpx;
+  width: 114rpx;
+  height: 36rpx;
+  background: linear-gradient(-38deg, #33A0FF, #2852FF);
+  border-radius: 18rpx;
+  color: #FFFFFF;
+  font-size: 22rpx;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.UserInfo-container .userInfo .left .identity .icon {
+  width: 17rpx;
+  height: 15rpx;
+  display: block;
+  margin-right: 4rpx;
+}
+.UserInfo-container .userInfo .right {
+  width: 550rpx;
+}
+.UserInfo-container .userInfo .right .userName-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.UserInfo-container .userInfo .right .userName-container .username {
+  color: #1A1A1A;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.UserInfo-container .userInfo .right .userName-container .homepage {
+  display: flex;
+  align-items: center;
+  color: #1A1A1A;
+  font-size: 26rpx;
+}
+.UserInfo-container .userInfo .right .userName-container .homepage .icon {
+  width: 9px;
+  height: 15px;
+  display: block;
+  margin-left: 13rpx;
+}
+.UserInfo-container .userInfo .right .authentication {
+  width: 210rpx;
+  background: #E0E8FF;
+  border-radius: 50rpx;
+  margin-top: 18rpx;
+  display: flex;
+  align-items: center;
+  padding: 6rpx 12rpx;
+}
+.UserInfo-container .userInfo .right .authentication .icon1 {
+  width: 18rpx;
+  height: 18rpx;
+  background: #2858FF;
+  border-radius: 50%;
+}
+.UserInfo-container .userInfo .right .authentication .icon2 {
+  width: 12rpx;
+  height: 12rpx;
+  background: #2858FF;
+}
+.UserInfo-container .userInfo .right .authentication .auther-text {
+  font-size: 18rpx;
+  color: #2858FF;
+  margin: 0 18rpx 0 10rpx;
+}
+.UserInfo-container .VIP-container {
+  width: 640rpx;
+  height: 100rpx;
+  padding: 0 25rpx;
+  background: linear-gradient(0deg, #22202D 0%, #2D2A3F 100%);
+  border-radius: 10rpx;
+  display: flex;
+  align-items: center;
+  margin: 0 auto 20rpx;
+  position: relative;
+}
+.UserInfo-container .VIP-container .crown {
+  width: 67rpx;
+  height: 52rpx;
+  background: linear-gradient(135deg, #E6B16B 0%, #FFEEDA 100%);
+}
+.UserInfo-container .VIP-container .vip-text {
+  margin-left: 28rpx;
+  font-size: 24rpx;
+  color: #EFD7B9;
+}
+.UserInfo-container .VIP-container .receive {
+  width: 116rpx;
+  height: 46rpx;
+  background: linear-gradient(135deg, #FFEDDC, #E4BE8F);
+  border-radius: 23rpx;
+  font-size: 24rpx;
+  color: #5C3F1C;
+  text-align: center;
+  line-height: 46rpx;
+  position: absolute;
+  right: 0;
+  margin-right: 25rpx;
+}

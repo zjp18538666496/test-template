@@ -1,0 +1,156 @@
+/* 水平间距 */
+/* 水平间距 */
+.ButtonArea-container[data-v-1ed3d168] {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+  position: relative;
+  width: 21.5625rem;
+  margin: 0 auto 2.15625rem;
+}
+.ButtonArea-container .one-button .top[data-v-1ed3d168] {
+  position: relative;
+}
+.ButtonArea-container .one-button .top .bg1[data-v-1ed3d168] {
+  background: linear-gradient(135deg, #00C0FF, #0F5FFF);
+}
+.ButtonArea-container .one-button .top .bg2[data-v-1ed3d168] {
+  background: linear-gradient(-26deg, #539DFF, #507EFF);
+}
+.ButtonArea-container .one-button .top .image-container[data-v-1ed3d168] {
+  box-shadow: 0px 0px 18px 0px rgba(0, 136, 255, 0.3);
+  border-radius: 50%;
+  width: 2.875rem;
+  height: 2.875rem;
+  margin: 0 auto;
+}
+.ButtonArea-container .one-button .top .image-container .image[data-v-1ed3d168] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.ButtonArea-container .one-button .top .tips[data-v-1ed3d168] {
+  width: 1rem;
+  height: 1rem;
+  background: #FF0055;
+  border: 0.125rem solid #FFFFFF;
+  border-radius: 50%;
+  font-size: 0.6875rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 2.3125rem;
+  bottom: 1.875rem;
+  text-align: center;
+  line-height: 1rem;
+}
+.ButtonArea-container .one-button .button-text[data-v-1ed3d168] {
+  color: #000000;
+  font-size: 0.8125rem;
+  margin-top: 0.75rem;
+}
+/* 水平间距 */
+/* 水平间距 */
+.InfoList-container[data-v-93f24cce] {
+  flex: 1;
+  overflow-y: scroll;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.InfoList-container .one-info[data-v-93f24cce] {
+  width: calc(100vw - 1.875rem);
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+.InfoList-container .one-info .image-container[data-v-93f24cce] {
+  width: 2.875rem;
+  height: 2.875rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.InfoList-container .one-info .image-container .icon0[data-v-93f24cce] {
+  width: 1.1875rem;
+  height: 1.5625rem;
+}
+.InfoList-container .one-info .image-container .icon1[data-v-93f24cce] {
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+.InfoList-container .one-info .image-container .icon2[data-v-93f24cce] {
+  width: 1.3125rem;
+  height: 1.3125rem;
+}
+.InfoList-container .one-info .image-container .icon3[data-v-93f24cce] {
+  width: 1.5625rem;
+  height: 1.3125rem;
+}
+.InfoList-container .one-info .bg0[data-v-93f24cce] {
+  background: linear-gradient(135deg, #FF9000, #FF4A00);
+}
+.InfoList-container .one-info .bg1[data-v-93f24cce] {
+  background: linear-gradient(135deg, #FFD400, #FDA100);
+}
+.InfoList-container .one-info .bg2[data-v-93f24cce] {
+  background: linear-gradient(135deg, #00C0FF, #0F5FFF);
+}
+.InfoList-container .one-info .bg3[data-v-93f24cce] {
+  background: linear-gradient(135deg, #458FFF, #4E45FF);
+}
+.InfoList-container .info-data[data-v-93f24cce] {
+  margin-left: 0.75rem;
+  width: calc(100vw - 1.875rem);
+}
+.InfoList-container .info-data .info-title[data-v-93f24cce] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.InfoList-container .info-data .info-title .title[data-v-93f24cce] {
+  color: #000000;
+  font-size: 0.9375rem;
+}
+.InfoList-container .info-data .info-title .time[data-v-93f24cce] {
+  color: #CCCCCC;
+  font-size: 0.6875rem;
+}
+.InfoList-container .info-data .info-details[data-v-93f24cce] {
+  color: #999999;
+  font-size: 0.8125rem;
+  margin-top: 0.46875rem;
+}
+
+.GraBackground[data-v-1dc47b59] {
+		width: 100vw;
+		height: 8.21875rem;
+		background: linear-gradient(0deg, #F4F9FF 0%, #E0E7FF 100%);
+		position: absolute;
+		z-index: 0;
+		top: 0;
+}
+
+/* 水平间距 */
+/* 水平间距 */
+.index {
+  height: 100vh;
+  background-color: #F7F8FC;
+  display: flex;
+  flex-direction: column;
+}
+.index .navigationBarTitleText {
+  color: #1A1A1A;
+  font-size: 1.1875rem;
+  font-weight: bold;
+  text-align: center;
+  height: 5.5rem;
+  line-height: 4.6875rem;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1;
+  position: relative;
+}

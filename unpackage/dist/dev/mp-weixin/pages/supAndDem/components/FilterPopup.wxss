@@ -1,0 +1,77 @@
+/* 水平间距 */
+/* 水平间距 */
+.FilterPopup-container .popup-container {
+  width: 100vw;
+  background-color: #FFFFFF;
+  padding: 40rpx 30rpx 0 30rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.FilterPopup-container .popup-container .title {
+  color: #1A1A1A;
+  font-size: 32rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+.FilterPopup-container .popup-container .title .close-icon {
+  width: 20rpx;
+  height: 20rpx;
+  background-color: #1A1A1A;
+}
+.FilterPopup-container .popup-container .scroll-container {
+  height: 800rpx;
+  overflow-y: scroll;
+}
+.FilterPopup-container .popup-container .scroll-container .select-title {
+  color: #333333;
+  font-size: 28rpx;
+  margin: 70rpx 0 36rpx;
+}
+.FilterPopup-container .popup-container .scroll-container .select-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.FilterPopup-container .popup-container .scroll-container .select-container .one-select {
+  width: 214rpx;
+  height: 82rpx;
+  background: #F6F7F9;
+  border-radius: 12rpx;
+  text-align: center;
+  line-height: 82rpx;
+  color: #4D4D4D;
+  font-size: 26rpx;
+  margin-right: 24rpx;
+  margin-bottom: 24rpx;
+}
+.FilterPopup-container .popup-container .scroll-container .select-container .one-select:nth-child(3n) {
+  margin-right: 0;
+}
+.FilterPopup-container .popup-container .button-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20rpx 0;
+}
+.FilterPopup-container .popup-container .button-area .reset {
+  width: 226rpx;
+  height: 92rpx;
+  background: #E6ECFF;
+  border-radius: 46rpx;
+  text-align: center;
+  line-height: 92rpx;
+  font-size: 30rpx;
+  color: #2858FF;
+}
+.FilterPopup-container .popup-container .button-area .ok {
+  width: 442rpx;
+  height: 92rpx;
+  background: #2858FF;
+  border-radius: 46rpx;
+  text-align: center;
+  line-height: 92rpx;
+  font-size: 30rpx;
+  color: #FFFFFF;
+}

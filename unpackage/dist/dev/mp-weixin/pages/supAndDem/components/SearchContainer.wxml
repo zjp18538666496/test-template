@@ -1,0 +1,1 @@
+<view class="SearchContainer"><view class="select-address"><view class="text">郑州</view><image class="arrow" src="{{''}}"></image></view><view class="search"><image class="icon" src="/static/logo.png"></image><input class="input" placeholder="搜索供需产品"/></view><view class="add"></view></view>

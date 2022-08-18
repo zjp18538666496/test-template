@@ -1,0 +1,130 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/supAndDem/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/information/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/personalInformation/personalInformation",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/my/companyHomepage/CompanyHomepage",
+			"style": {
+				"navigationBarTitleText": "企业信息",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/my/accountSettings/AccountSettings",
+			"style": {
+				"navigationBarTitleText": "账户设置",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/my/accountSecurity/AccountSecurity",
+			"style": {
+				"navigationBarTitleText": "账户与安全",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/my/suppliers/Suppliers",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/my/release/Release",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#F7F8FC"
+		}
+	},
+	"tabBar": {
+		"color": "#cccccc",
+		"selectedColor": "#2852FF",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/uni.png",
+				"selectedIconPath": "static/uni.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/supAndDem/index",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "供需"
+			},
+			{
+				"pagePath": "pages/information/index",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "信息"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 1, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "pages/supAndDem/index", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

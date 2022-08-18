@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "user-info": "./components/UserInfo",
+    "common-functions": "./components/CommonFunctions",
+    "other-functions": "./components/OtherFunctions"
+  }
+}

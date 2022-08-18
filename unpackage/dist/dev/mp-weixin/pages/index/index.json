@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "search-container": "./components/SearchContainer",
+    "menus": "./components/Menus",
+    "quote-list": "./components/QuoteList"
+  }
+}

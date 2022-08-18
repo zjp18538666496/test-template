@@ -1,0 +1,165 @@
+/* 水平间距 */
+/* 水平间距 */
+.search-container[data-v-2118b9f6] {
+  width: 21.5625rem;
+  padding-top: 1.5625rem;
+  box-sizing: border-box;
+}
+.search-container .wrap[data-v-2118b9f6] {
+  display: flex;
+  justify-content: space-between;
+}
+.search-container .wrap .left .label-1[data-v-2118b9f6] {
+  color: #1A1A1A;
+  font-size: 1rem;
+}
+.search-container .wrap .left .label-2[data-v-2118b9f6] {
+  color: #999999;
+  font-size: 0.6875rem;
+  padding-top: 0.375rem;
+}
+.search-container .set-img[data-v-2118b9f6] {
+  width: 21.5625rem;
+  height: 7.5rem;
+  border-radius: 0.75rem;
+  display: block;
+  margin: 1.1875rem 0 1.875rem;
+}
+/* 水平间距 */
+/* 水平间距 */
+.Menus-container .menus[data-v-355151f1] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20.3125rem;
+  margin: 0 auto;
+}
+.Menus-container .menus .one-box .outside[data-v-355151f1] {
+  width: 3.125rem;
+}
+.Menus-container .menus .one-box .outside .icon[data-v-355151f1] {
+  width: 1.875rem;
+  height: 2.03125rem;
+  display: block;
+  margin: 0 auto 1.09375rem;
+  text-align: center;
+}
+.Menus-container .menus .one-box .outside .text-name[data-v-355151f1] {
+  width: 100%;
+  color: #4D4D4D;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.Menus-container .express[data-v-355151f1] {
+  width: 21.5625rem;
+  height: 1.5625rem;
+  background-color: #E6ECFF;
+  border-radius: 8px;
+  margin: 1.5rem auto 2.09375rem;
+}
+/* 水平间距 */
+/* 水平间距 */
+.QuoteList-container .title-container[data-v-48899a92] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 0.9375rem;
+}
+.QuoteList-container .title-container .title-name[data-v-48899a92] {
+  color: #1A1A1A;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.QuoteList-container .title-container .more[data-v-48899a92] {
+  display: flex;
+  align-items: center;
+}
+.QuoteList-container .title-container .more .more-name[data-v-48899a92] {
+  color: #808080;
+  font-size: 0.75rem;
+  margin-right: 0.625rem;
+}
+.QuoteList-container .title-container .more .icon[data-v-48899a92] {
+  width: 8px;
+  height: 13px;
+  background-color: #999999;
+}
+.QuoteList-container .data-list .quote[data-v-48899a92] {
+  width: 19.6875rem;
+  background: #FFFFFF;
+  border-radius: 0.75rem;
+  padding: 0.9375rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.625rem;
+}
+.QuoteList-container .data-list .quote .quote-img[data-v-48899a92] {
+  width: 6.9375rem;
+  height: 6.9375rem;
+  border-radius: 0.6875rem;
+}
+.QuoteList-container .data-list .quote .quote-right[data-v-48899a92] {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 11.875rem;
+}
+.QuoteList-container .data-list .quote .quote-right .quote-title[data-v-48899a92] {
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
+.QuoteList-container .data-list .quote .quote-right .quote-details[data-v-48899a92] {
+  font-size: 0.6875rem;
+  color: #999999;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.QuoteList-container .data-list .quote .quote-right .label-container[data-v-48899a92] {
+  display: flex;
+  align-items: center;
+}
+.QuoteList-container .data-list .quote .quote-right .label-container .label[data-v-48899a92] {
+  margin-right: 0.25rem;
+  padding: 0.15625rem 0.28125rem;
+  background-color: #E6ECFF;
+  color: #2858FF;
+  font-size: 0.6875rem;
+  border-radius: 0.15625rem;
+  margin-top: 0.8125rem;
+}
+.QuoteList-container .data-list .quote .quote-right .price-container[data-v-48899a92] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.625rem;
+}
+.QuoteList-container .data-list .quote .quote-right .price-container .price .text1[data-v-48899a92] {
+  color: #999999;
+  font-size: 0.6875rem;
+}
+.QuoteList-container .data-list .quote .quote-right .price-container .price .text2[data-v-48899a92] {
+  color: #FF563F;
+  font-size: 1rem;
+}
+.QuoteList-container .data-list .quote .quote-right .price-container .price .text3[data-v-48899a92] {
+  color: #FF563F;
+  font-size: 22px;
+}
+.QuoteList-container .data-list .quote .quote-right .price-container .quote-btn[data-v-48899a92] {
+  width: 4.375rem;
+  height: 1.875rem;
+  background: #2858FF;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 1.875rem;
+}
+
+.index {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #F7F8FC;
+}

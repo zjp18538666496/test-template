@@ -1,0 +1,1 @@
+<view class="Menus-container"><view class="menus"><navigator wx:for="{{a}}" wx:for-item="item" wx:key="c" class="one-box" hover-class="none" url="{{item.d}}"><view class="outside"><image class="icon" src="{{item.a}}"></image><view class="text-name">{{item.b}}</view></view></navigator></view><view class="express"></view></view>

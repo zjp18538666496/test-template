@@ -1,0 +1,18 @@
+/* 水平间距 */
+/* 水平间距 */
+.CommonFunctions .icon1 {
+  width: 46rpx;
+  height: 48rpx;
+}
+.CommonFunctions .icon2 {
+  width: 42rpx;
+  height: 48rpx;
+}
+.CommonFunctions .icon3 {
+  width: 51rpx;
+  height: 49rpx;
+}
+.CommonFunctions .icon4 {
+  width: 45rpx;
+  height: 49rpx;
+}

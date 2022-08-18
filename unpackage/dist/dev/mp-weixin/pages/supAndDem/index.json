@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "search-container": "./components/SearchContainer",
+    "tabs": "./components/Tabs",
+    "data-list": "./components/DataList"
+  }
+}

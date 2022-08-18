@@ -1,0 +1,1 @@
+<view class="index"><search-container u-i="4f043d4a-0" bind:__l="__l"></search-container><menus u-i="4f043d4a-1" bind:__l="__l"></menus><quote-list u-i="4f043d4a-2" bind:__l="__l"></quote-list></view>

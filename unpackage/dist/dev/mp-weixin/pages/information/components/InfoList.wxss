@@ -1,0 +1,77 @@
+/* 水平间距 */
+/* 水平间距 */
+.InfoList-container {
+  flex: 1;
+  overflow-y: scroll;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.InfoList-container .one-info {
+  width: calc(100vw - 60rpx);
+  margin-bottom: 40rpx;
+  display: flex;
+  align-items: center;
+}
+.InfoList-container .one-info .image-container {
+  width: 92rpx;
+  height: 92rpx;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.InfoList-container .one-info .image-container .icon0 {
+  width: 38rpx;
+  height: 50rpx;
+}
+.InfoList-container .one-info .image-container .icon1 {
+  width: 50rpx;
+  height: 50rpx;
+}
+.InfoList-container .one-info .image-container .icon2 {
+  width: 42rpx;
+  height: 42rpx;
+}
+.InfoList-container .one-info .image-container .icon3 {
+  width: 50rpx;
+  height: 42rpx;
+}
+.InfoList-container .one-info .bg0 {
+  background: linear-gradient(135deg, #FF9000, #FF4A00);
+}
+.InfoList-container .one-info .bg1 {
+  background: linear-gradient(135deg, #FFD400, #FDA100);
+}
+.InfoList-container .one-info .bg2 {
+  background: linear-gradient(135deg, #00C0FF, #0F5FFF);
+}
+.InfoList-container .one-info .bg3 {
+  background: linear-gradient(135deg, #458FFF, #4E45FF);
+}
+.InfoList-container .info-data {
+  margin-left: 24rpx;
+  width: calc(100vw - 60rpx);
+}
+.InfoList-container .info-data .info-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.InfoList-container .info-data .info-title .title {
+  color: #000000;
+  font-size: 30rpx;
+}
+.InfoList-container .info-data .info-title .time {
+  color: #CCCCCC;
+  font-size: 22rpx;
+}
+.InfoList-container .info-data .info-details {
+  color: #999999;
+  font-size: 26rpx;
+  margin-top: 15rpx;
+}

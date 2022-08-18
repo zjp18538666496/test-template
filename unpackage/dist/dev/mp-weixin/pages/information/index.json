@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "button-area": "./components/ButtonArea",
+    "info-list": "./components/InfoList",
+    "gra-background": "../../components/GraBackground"
+  }
+}

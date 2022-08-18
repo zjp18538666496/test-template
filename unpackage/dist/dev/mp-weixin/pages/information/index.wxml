@@ -1,0 +1,1 @@
+<view class="index"><gra-background u-i="44777138-0" bind:__l="__l"></gra-background><view class="navigationBarTitleText">消息</view><button-area u-i="44777138-1" bind:__l="__l"></button-area><info-list u-i="44777138-2" bind:__l="__l"></info-list></view>

@@ -1,0 +1,1 @@
+<view class="TabsContainer"><view class="one-tab"><view>综合排序</view><image class="arrow" src="{{''}}"></image></view><view class="one-tab" bindtap="{{a}}">高级筛选</view></view><filter-popup class="r" u-r="FilterPopupRef" u-i="84882c80-0" bind:__l="__l"></filter-popup>

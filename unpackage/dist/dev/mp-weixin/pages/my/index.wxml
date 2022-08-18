@@ -1,0 +1,1 @@
+<view class="index"><user-info u-i="039b170a-0" bind:__l="__l"></user-info><common-functions u-i="039b170a-1" bind:__l="__l"></common-functions><other-functions u-i="039b170a-2" bind:__l="__l"></other-functions></view>

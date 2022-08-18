@@ -1,0 +1,46 @@
+/* 水平间距 */
+/* 水平间距 */
+.SearchContainer {
+  width: 690rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50rpx;
+}
+.SearchContainer .select-address {
+  display: flex;
+  align-items: center;
+}
+.SearchContainer .select-address .text {
+  font-size: 30rpx;
+  color: #1A1A1A;
+}
+.SearchContainer .select-address .arrow {
+  width: 12px;
+  height: 7px;
+}
+.SearchContainer .search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 407rpx;
+  height: 72rpx;
+  padding: 0 40rpx;
+  background: #FFFFFF;
+  border-radius: 36rpx;
+  font-size: 24rpx;
+}
+.SearchContainer .search .icon {
+  width: 28rpx;
+  height: 28rpx;
+}
+.SearchContainer .search .input {
+  width: 360rpx;
+}
+.SearchContainer .add {
+  width: 56rpx;
+  height: 56rpx;
+  background: linear-gradient(-38deg, #33A0FF, #2852FF);
+  box-shadow: 0rpx 0rpx 16rpx 0rpx rgba(38, 94, 255, 0.3);
+  border-radius: 50%;
+}

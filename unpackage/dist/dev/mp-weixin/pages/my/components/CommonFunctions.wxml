@@ -1,0 +1,1 @@
+<view class="CommonFunctions box-container"><view class="title">常用功能</view><view class="action-container"><view wx:for="{{a}}" wx:for-item="item" wx:key="c" class="one-button"><image class="{{item.a}}" src="/static/logo.png"></image><view class="button-text">{{item.b}}</view></view></view></view>

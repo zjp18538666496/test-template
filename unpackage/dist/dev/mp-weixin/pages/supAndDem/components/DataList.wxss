@@ -1,0 +1,106 @@
+/* 水平间距 */
+/* 水平间距 */
+.DataListContainer .one-container {
+  width: 630rpx;
+  padding: 30rpx;
+  background: #FFFFFF;
+  border-radius: 24rpx;
+  margin-bottom: 30rpx;
+}
+.DataListContainer .one-container .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.DataListContainer .one-container .top .data-type {
+  display: flex;
+  align-items: center;
+}
+.DataListContainer .one-container .top .data-type .ball {
+  width: 38rpx;
+  height: 38rpx;
+  background: linear-gradient(-38deg, #33A0FF, #2852FF);
+  border-radius: 50%;
+  line-height: 38rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  margin-right: 12rpx;
+}
+.DataListContainer .one-container .top .data-type .title {
+  color: #1A1A1A;
+  font-size: 30rpx;
+}
+.DataListContainer .one-container .top .label {
+  width: 86rpx;
+  height: 32rpx;
+  background: #E6ECFF;
+  border-radius: 5rpx;
+  color: #2858FF;
+  font-size: 22rpx;
+  text-align: center;
+  line-height: 32rpx;
+}
+.DataListContainer .one-container .center {
+  margin: 35rpx 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.DataListContainer .one-container .center .left-image {
+  width: 180rpx;
+  height: 180rpx;
+}
+.DataListContainer .one-container .center .right-data {
+  width: 440rpx;
+}
+.DataListContainer .one-container .center .right-data .line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+}
+.DataListContainer .one-container .center .right-data .price {
+  margin-top: 40rpx;
+}
+.DataListContainer .one-container .center .right-data .field {
+  color: #333333;
+  font-size: 24rpx;
+}
+.DataListContainer .one-container .center .right-data .data {
+  color: #666666;
+  font-size: 24rpx;
+}
+.DataListContainer .one-container .center .right-data .price-number {
+  color: #FF563F;
+  font-size: 30rpx;
+}
+.DataListContainer .one-container .center .right-data .yuan {
+  font-size: 22rpx;
+  color: #FF563F;
+}
+.DataListContainer .one-container .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.DataListContainer .one-container .bottom .container {
+  display: flex;
+  align-items: center;
+}
+.DataListContainer .one-container .bottom .container .icon1 {
+  width: 20rpx;
+  height: 22rpx;
+}
+.DataListContainer .one-container .bottom .container .icon2 {
+  width: 22rpx;
+  height: 18rpx;
+}
+.DataListContainer .one-container .bottom .container .icon3 {
+  width: 22rpx;
+  height: 22rpx;
+}
+.DataListContainer .one-container .bottom .container .text {
+  color: #CCCCCC;
+  font-size: 24rpx;
+}

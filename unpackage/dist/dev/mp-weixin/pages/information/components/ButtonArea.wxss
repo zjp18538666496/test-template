@@ -1,0 +1,50 @@
+/* 水平间距 */
+/* 水平间距 */
+.ButtonArea-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+  position: relative;
+  width: 690rpx;
+  margin: 0 auto 69rpx;
+}
+.ButtonArea-container .one-button .top {
+  position: relative;
+}
+.ButtonArea-container .one-button .top .bg1 {
+  background: linear-gradient(135deg, #00C0FF, #0F5FFF);
+}
+.ButtonArea-container .one-button .top .bg2 {
+  background: linear-gradient(-26deg, #539DFF, #507EFF);
+}
+.ButtonArea-container .one-button .top .image-container {
+  box-shadow: 0px 0px 18px 0px rgba(0, 136, 255, 0.3);
+  border-radius: 50%;
+  width: 92rpx;
+  height: 92rpx;
+  margin: 0 auto;
+}
+.ButtonArea-container .one-button .top .image-container .image {
+  width: 48rpx;
+  height: 48rpx;
+}
+.ButtonArea-container .one-button .top .tips {
+  width: 32rpx;
+  height: 32rpx;
+  background: #FF0055;
+  border: 4rpx solid #FFFFFF;
+  border-radius: 50%;
+  font-size: 22rpx;
+  color: #FFFFFF;
+  position: absolute;
+  left: 74rpx;
+  bottom: 60rpx;
+  text-align: center;
+  line-height: 32rpx;
+}
+.ButtonArea-container .one-button .button-text {
+  color: #000000;
+  font-size: 26rpx;
+  margin-top: 24rpx;
+}

@@ -1,0 +1,34 @@
+/* 水平间距 */
+/* 水平间距 */
+.OtherFunctions .icon1 {
+  width: 42rpx;
+  height: 48rpx;
+}
+.OtherFunctions .icon2 {
+  width: 42rpx;
+  height: 49rpx;
+}
+.OtherFunctions .icon3 {
+  width: 47rpx;
+  height: 47rpx;
+}
+.OtherFunctions .icon4 {
+  width: 41rpx;
+  height: 44rpx;
+}
+.OtherFunctions .icon5 {
+  width: 47rpx;
+  height: 47rpx;
+}
+.OtherFunctions .icon6 {
+  width: 47rpx;
+  height: 47rpx;
+}
+.OtherFunctions .icon7 {
+  width: 47rpx;
+  height: 47rpx;
+}
+.OtherFunctions .icon8 {
+  width: 43rpx;
+  height: 48rpx;
+}

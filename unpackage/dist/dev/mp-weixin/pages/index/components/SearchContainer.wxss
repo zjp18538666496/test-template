@@ -1,0 +1,27 @@
+/* 水平间距 */
+/* 水平间距 */
+.search-container {
+  width: 690rpx;
+  padding-top: 50rpx;
+  box-sizing: border-box;
+}
+.search-container .wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.search-container .wrap .left .label-1 {
+  color: #1A1A1A;
+  font-size: 32rpx;
+}
+.search-container .wrap .left .label-2 {
+  color: #999999;
+  font-size: 22rpx;
+  padding-top: 12rpx;
+}
+.search-container .set-img {
+  width: 690rpx;
+  height: 240rpx;
+  border-radius: 24rpx;
+  display: block;
+  margin: 38rpx 0 60rpx;
+}

@@ -1,0 +1,32 @@
+/* 水平间距 */
+/* 水平间距 */
+.Menus-container .menus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 650rpx;
+  margin: 0 auto;
+}
+.Menus-container .menus .one-box .outside {
+  width: 100rpx;
+}
+.Menus-container .menus .one-box .outside .icon {
+  width: 60rpx;
+  height: 65rpx;
+  display: block;
+  margin: 0 auto 35rpx;
+  text-align: center;
+}
+.Menus-container .menus .one-box .outside .text-name {
+  width: 100%;
+  color: #4D4D4D;
+  font-size: 24rpx;
+  text-align: center;
+}
+.Menus-container .express {
+  width: 690rpx;
+  height: 50rpx;
+  background-color: #E6ECFF;
+  border-radius: 8px;
+  margin: 48rpx auto 67rpx;
+}

@@ -1,0 +1,83 @@
+/* 水平间距 */
+/* 水平间距 */
+.titleBox[data-v-f41a3be6] {
+  margin-bottom: 0.625rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleBox .chatHead[data-v-f41a3be6] {
+  position: absolute;
+  left: 0.625rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.titleBox .title-xtxt[data-v-f41a3be6] {
+  font-size: 1rem;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #1A1A1A;
+}
+/* 水平间距 */
+/* 水平间距 */
+.propertyBox[data-v-2ee24051] {
+  display: flex;
+  border-bottom: 0.0625rem solid #F5F5F5;
+  background-color: #fff;
+  padding: 0 0.9375rem;
+}
+.propertyBox .personalInformation[data-v-2ee24051] {
+  width: 100%;
+  height: 100%;
+  padding: 1.40625rem 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+}
+.propertyBox .personalInformation .title[data-v-2ee24051] {
+  color: #1A1A1A;
+  height: 1.1875rem;
+  line-height: 1.1875rem;
+}
+.propertyBox .personalInformation .detailsBox[data-v-2ee24051] {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.1875rem;
+  line-height: 1.1875rem;
+  color: #4D4D4D;
+}
+.propertyBox .personalInformation .detailsBox .detailsImg[data-v-2ee24051] {
+  margin-left: 0.5rem;
+  width: 0.8125rem;
+  height: 0.8125rem;
+}
+.propertyBox .personalInformation .detailsBox .chatHead[data-v-2ee24051] {
+  width: 2.375rem;
+  height: 2.375rem;
+}
+/* 水平间距 */
+/* 水平间距 */
+body {
+  padding-top: 2.1875rem;
+  padding-bottom: 0.625rem;
+}
+.companyHomepage {
+  background: #F8F8FA;
+}
+.companyHomepage .optionsList {
+  margin-bottom: 0.625rem;
+}
+.companyHomepage .btnSave {
+  color: #fff;
+  width: 21.5625rem;
+  height: 2.875rem;
+  background: #2858FF;
+  border-radius: 1.4375rem;
+}
