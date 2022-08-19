@@ -31,14 +31,14 @@
 		</view>
 		<view class="doubt">
 			<view-text>验证码登录</view-text>
-			<view-text>收不到验证码?</view-text>
+			<view-text @click="doubt">注册</view-text>
 		</view>
-		<view class="tertiaryPeriod">
+		<!-- <view class="tertiaryPeriod">
 			<view-text>第三方登录</view-text>
 			<view class="wx">
 
 			</view>
-		</view>
+		</view> -->
 	</view>
 </template>
 
@@ -59,6 +59,11 @@
 			login() {
 				uni.switchTab({
 					url: '/pages/index/index'
+				});
+			},
+			doubt(){
+				uni.navigateTo({
+					url: '/pages/my/signUp/SignUp'
 				});
 			}
 		}

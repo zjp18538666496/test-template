@@ -27,7 +27,7 @@
 				</view>
 				<view class="button-area">
 					<view class="reset">重置</view>
-					<view class="ok">确定</view>
+					<view @click="close" class="ok">确定</view>
 				</view>
 			</view>
 		</uni-popup>

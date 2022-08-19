@@ -54,8 +54,154 @@ if (uni.restoreGlobal) {
     }
     return target;
   };
-  const _sfc_main$G = {};
-  function _sfc_render$y(_ctx, _cache) {
+  const _sfc_main$G = {
+    props: {
+      Title: String
+    },
+    data() {
+      return {};
+    },
+    methods: {
+      back() {
+        uni.navigateBack({
+          delta: 1
+        });
+      }
+    }
+  };
+  function _sfc_render$y(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_view_text = vue.resolveComponent("view-text");
+    return vue.openBlock(), vue.createElementBlock("view", { class: "titleBox" }, [
+      vue.createElementVNode("image", {
+        onClick: _cache[0] || (_cache[0] = (...args) => $options.back && $options.back(...args)),
+        class: "chatHead",
+        src: "/static/back.png"
+      }),
+      vue.createVNode(_component_view_text, { class: "title-xtxt" }, {
+        default: vue.withCtx(() => [
+          vue.createTextVNode(vue.toDisplayString($props.Title), 1)
+        ]),
+        _: 1
+      })
+    ]);
+  }
+  var Title = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["render", _sfc_render$y], ["__scopeId", "data-v-f41a3be6"], ["__file", "C:/Users/Administrator/Desktop/test-template/components/Title.vue"]]);
+  const _sfc_main$F = {
+    data() {
+      return {
+        loginName: "\u9A8C\u8BC1\u7801\u767B\u5F55",
+        loginPrompt: "\u9996\u6B21\u767B\u5F55\u5C06\u81EA\u52A8\u6CE8\u518C",
+        verificationCode: "\u91CD\u65B0\u83B7\u53D6"
+      };
+    },
+    components: {
+      Title
+    },
+    methods: {
+      login() {
+        uni.switchTab({
+          url: "/pages/index/index"
+        });
+      },
+      doubt() {
+        uni.navigateTo({
+          url: "/pages/my/signUp/SignUp"
+        });
+      }
+    }
+  };
+  function _sfc_render$x(_ctx, _cache, $props, $setup, $data, $options) {
+    const _component_view_text = vue.resolveComponent("view-text");
+    return vue.openBlock(), vue.createElementBlock("view", { class: "loginBox" }, [
+      vue.createElementVNode("view", { class: "signQuickly" }, [
+        vue.createVNode(_component_view_text, null, {
+          default: vue.withCtx(() => [
+            vue.createTextVNode("\u5FEB\u901F\u767B\u5F55")
+          ]),
+          _: 1
+        }),
+        vue.createElementVNode("image", {
+          class: "detailsImg",
+          src: "/static/rightClick.png",
+          mode: ""
+        })
+      ]),
+      vue.createElementVNode("view", { class: "loginName" }, vue.toDisplayString($data.loginName), 1),
+      vue.createElementVNode("view", { class: "loginPrompt" }, vue.toDisplayString($data.loginPrompt), 1),
+      vue.createElementVNode("view", { class: "input" }, [
+        vue.createElementVNode("view", { class: "user" }, [
+          vue.createElementVNode("input", {
+            type: "text",
+            placeholder: "\u624B\u673A\u53F7"
+          })
+        ]),
+        vue.createElementVNode("view", { class: "password" }, [
+          vue.createElementVNode("input", {
+            type: "password",
+            placeholder: "\u8BF7\u8F93\u5165\u9A8C\u8BC1\u7801"
+          }),
+          vue.createVNode(_component_view_text, { class: "verificationCode" }, {
+            default: vue.withCtx(() => [
+              vue.createTextVNode(vue.toDisplayString($data.verificationCode), 1)
+            ]),
+            _: 1
+          })
+        ])
+      ]),
+      vue.createElementVNode("view", { class: "agreement" }, [
+        vue.createElementVNode("image", {
+          class: "img",
+          src: "/static/consent.png"
+        }),
+        vue.createVNode(_component_view_text, { class: "text1" }, {
+          default: vue.withCtx(() => [
+            vue.createTextVNode("\u6211\u5DF2\u9605\u8BFB\xA0")
+          ]),
+          _: 1
+        }),
+        vue.createVNode(_component_view_text, { class: "text2" }, {
+          default: vue.withCtx(() => [
+            vue.createTextVNode("\u827E\u4E50\u535A\u670D\u52A1\u534F\u8BAE")
+          ]),
+          _: 1
+        }),
+        vue.createVNode(_component_view_text, { class: "text1" }, {
+          default: vue.withCtx(() => [
+            vue.createTextVNode("\xA0\u548C\xA0")
+          ]),
+          _: 1
+        }),
+        vue.createVNode(_component_view_text, { class: "text2" }, {
+          default: vue.withCtx(() => [
+            vue.createTextVNode("\u9690\u79C1\u653F\u7B56")
+          ]),
+          _: 1
+        })
+      ]),
+      vue.createElementVNode("view", {
+        onClick: _cache[0] || (_cache[0] = (...args) => $options.login && $options.login(...args)),
+        class: "login"
+      }, " \u767B\u5F55 "),
+      vue.createElementVNode("view", { class: "doubt" }, [
+        vue.createVNode(_component_view_text, null, {
+          default: vue.withCtx(() => [
+            vue.createTextVNode("\u9A8C\u8BC1\u7801\u767B\u5F55")
+          ]),
+          _: 1
+        }),
+        vue.createVNode(_component_view_text, { onClick: $options.doubt }, {
+          default: vue.withCtx(() => [
+            vue.createTextVNode("\u6CE8\u518C")
+          ]),
+          _: 1
+        }, 8, ["onClick"])
+      ]),
+      vue.createCommentVNode(' <view class="tertiaryPeriod">\r\n			<view-text>\u7B2C\u4E09\u65B9\u767B\u5F55</view-text>\r\n			<view class="wx">\r\n\r\n			</view>\r\n		</view> ')
+    ]);
+  }
+  var PagesMyLonginLongin = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["render", _sfc_render$x], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/longin/Longin.vue"]]);
+  const _sfc_main$E = {};
+  function _sfc_render$w(_ctx, _cache) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "search-container" }, [
       vue.createElementVNode("view", { class: "wrap" }, [
         vue.createElementVNode("view", { class: "left" }, [
@@ -70,8 +216,8 @@ if (uni.restoreGlobal) {
       })
     ]);
   }
-  var SearchContainer$1 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["render", _sfc_render$y], ["__scopeId", "data-v-2118b9f6"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/index/components/SearchContainer.vue"]]);
-  const _sfc_main$F = {
+  var SearchContainer$1 = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["render", _sfc_render$w], ["__scopeId", "data-v-2118b9f6"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/index/components/SearchContainer.vue"]]);
+  const _sfc_main$D = {
     __name: "Menus",
     setup(__props) {
       const menusList = [
@@ -105,9 +251,9 @@ if (uni.restoreGlobal) {
       };
     }
   };
-  var Menus = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["__scopeId", "data-v-355151f1"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/index/components/Menus.vue"]]);
-  const _sfc_main$E = {};
-  function _sfc_render$x(_ctx, _cache) {
+  var Menus = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["__scopeId", "data-v-355151f1"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/index/components/Menus.vue"]]);
+  const _sfc_main$C = {};
+  function _sfc_render$v(_ctx, _cache) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "QuoteList-container" }, [
       vue.createElementVNode("view", { class: "title-container" }, [
         vue.createElementVNode("view", { class: "title-name" }, "\u4EA7\u54C1\u62A5\u4EF7"),
@@ -149,8 +295,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  var QuoteList = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["render", _sfc_render$x], ["__scopeId", "data-v-48899a92"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/index/components/QuoteList.vue"]]);
-  const _sfc_main$D = {
+  var QuoteList = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["render", _sfc_render$v], ["__scopeId", "data-v-48899a92"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/index/components/QuoteList.vue"]]);
+  const _sfc_main$B = {
     __name: "index",
     setup(__props) {
       return (_ctx, _cache) => {
@@ -162,9 +308,9 @@ if (uni.restoreGlobal) {
       };
     }
   };
-  var PagesIndexIndex = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["__file", "C:/Users/Administrator/Desktop/test-template/pages/index/index.vue"]]);
-  const _sfc_main$C = {};
-  function _sfc_render$w(_ctx, _cache) {
+  var PagesIndexIndex = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["__file", "C:/Users/Administrator/Desktop/test-template/pages/index/index.vue"]]);
+  const _sfc_main$A = {};
+  function _sfc_render$u(_ctx, _cache) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "SearchContainer" }, [
       vue.createElementVNode("view", { class: "select-address" }, [
         vue.createElementVNode("view", { class: "text" }, "\u90D1\u5DDE"),
@@ -186,7 +332,7 @@ if (uni.restoreGlobal) {
       vue.createElementVNode("view", { class: "add" }, " + ")
     ]);
   }
-  var SearchContainer = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["render", _sfc_render$w], ["__scopeId", "data-v-3f62acf6"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/supAndDem/components/SearchContainer.vue"]]);
+  var SearchContainer = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["render", _sfc_render$u], ["__scopeId", "data-v-3f62acf6"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/supAndDem/components/SearchContainer.vue"]]);
   function isDebugMode() {
     return typeof __channelId__ === "string" && __channelId__;
   }
@@ -342,7 +488,7 @@ if (uni.restoreGlobal) {
     clearTimeout(_this.timer);
     return new MPAnimation(option, _this);
   }
-  const _sfc_main$B = {
+  const _sfc_main$z = {
     name: "uniTransition",
     emits: ["click", "change"],
     props: {
@@ -567,7 +713,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$v(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$t(_ctx, _cache, $props, $setup, $data, $options) {
     return $data.isShow ? (vue.openBlock(), vue.createElementBlock("view", {
       key: 0,
       ref: "ani",
@@ -579,11 +725,11 @@ if (uni.restoreGlobal) {
       vue.renderSlot(_ctx.$slots, "default")
     ], 14, ["animation"])) : vue.createCommentVNode("v-if", true);
   }
-  var __easycom_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["render", _sfc_render$v], ["__file", "C:/Users/Administrator/Desktop/test-template/uni_modules/uni-transition/components/uni-transition/uni-transition.vue"]]);
+  var __easycom_0$1 = /* @__PURE__ */ _export_sfc(_sfc_main$z, [["render", _sfc_render$t], ["__file", "C:/Users/Administrator/Desktop/test-template/uni_modules/uni-transition/components/uni-transition/uni-transition.vue"]]);
   function resolveEasycom(component, easycom) {
     return shared.isString(component) ? easycom : component;
   }
-  const _sfc_main$A = {
+  const _sfc_main$y = {
     name: "uniPopup",
     components: {},
     emits: ["change", "maskClick"],
@@ -880,7 +1026,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$u(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$s(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_uni_transition = resolveEasycom(vue.resolveDynamicComponent("uni-transition"), __easycom_0$1);
     return $data.showPopup ? (vue.openBlock(), vue.createElementBlock("view", {
       key: 0,
@@ -921,8 +1067,8 @@ if (uni.restoreGlobal) {
       ], 32)
     ], 2)) : vue.createCommentVNode("v-if", true);
   }
-  var __easycom_0 = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["render", _sfc_render$u], ["__scopeId", "data-v-7c43d41b"], ["__file", "C:/Users/Administrator/Desktop/test-template/uni_modules/uni-popup/components/uni-popup/uni-popup.vue"]]);
-  const _sfc_main$z = {
+  var __easycom_0 = /* @__PURE__ */ _export_sfc(_sfc_main$y, [["render", _sfc_render$s], ["__scopeId", "data-v-7c43d41b"], ["__file", "C:/Users/Administrator/Desktop/test-template/uni_modules/uni-popup/components/uni-popup/uni-popup.vue"]]);
+  const _sfc_main$x = {
     __name: "FilterPopup",
     setup(__props, { expose }) {
       const popup = vue.ref();
@@ -972,7 +1118,10 @@ if (uni.restoreGlobal) {
                 ]),
                 vue.createElementVNode("view", { class: "button-area" }, [
                   vue.createElementVNode("view", { class: "reset" }, "\u91CD\u7F6E"),
-                  vue.createElementVNode("view", { class: "ok" }, "\u786E\u5B9A")
+                  vue.createElementVNode("view", {
+                    onClick: close,
+                    class: "ok"
+                  }, "\u786E\u5B9A")
                 ])
               ])
             ]),
@@ -982,8 +1131,8 @@ if (uni.restoreGlobal) {
       };
     }
   };
-  var FilterPopup = /* @__PURE__ */ _export_sfc(_sfc_main$z, [["__scopeId", "data-v-252d3a60"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/supAndDem/components/FilterPopup.vue"]]);
-  const _sfc_main$y = {
+  var FilterPopup = /* @__PURE__ */ _export_sfc(_sfc_main$x, [["__scopeId", "data-v-252d3a60"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/supAndDem/components/FilterPopup.vue"]]);
+  const _sfc_main$w = {
     __name: "Tabs",
     setup(__props) {
       const FilterPopupRef = vue.ref();
@@ -1013,9 +1162,9 @@ if (uni.restoreGlobal) {
       };
     }
   };
-  var Tabs = /* @__PURE__ */ _export_sfc(_sfc_main$y, [["__scopeId", "data-v-ea51b03c"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/supAndDem/components/Tabs.vue"]]);
-  const _sfc_main$x = {};
-  function _sfc_render$t(_ctx, _cache) {
+  var Tabs = /* @__PURE__ */ _export_sfc(_sfc_main$w, [["__scopeId", "data-v-ea51b03c"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/supAndDem/components/Tabs.vue"]]);
+  const _sfc_main$v = {};
+  function _sfc_render$r(_ctx, _cache) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "DataListContainer" }, [
       (vue.openBlock(), vue.createElementBlock(vue.Fragment, null, vue.renderList(4, (item) => {
         return vue.createElementVNode("view", {
@@ -1090,8 +1239,8 @@ if (uni.restoreGlobal) {
       }), 64))
     ]);
   }
-  var DataList = /* @__PURE__ */ _export_sfc(_sfc_main$x, [["render", _sfc_render$t], ["__scopeId", "data-v-38ced8cc"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/supAndDem/components/DataList.vue"]]);
-  const _sfc_main$w = {
+  var DataList = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["render", _sfc_render$r], ["__scopeId", "data-v-38ced8cc"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/supAndDem/components/DataList.vue"]]);
+  const _sfc_main$u = {
     __name: "index",
     setup(__props) {
       return (_ctx, _cache) => {
@@ -1103,9 +1252,9 @@ if (uni.restoreGlobal) {
       };
     }
   };
-  var PagesSupAndDemIndex = /* @__PURE__ */ _export_sfc(_sfc_main$w, [["__file", "C:/Users/Administrator/Desktop/test-template/pages/supAndDem/index.vue"]]);
-  const _sfc_main$v = {};
-  function _sfc_render$s(_ctx, _cache) {
+  var PagesSupAndDemIndex = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["__file", "C:/Users/Administrator/Desktop/test-template/pages/supAndDem/index.vue"]]);
+  const _sfc_main$t = {};
+  function _sfc_render$q(_ctx, _cache) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "ButtonArea-container" }, [
       vue.createElementVNode("view", { class: "one-button" }, [
         vue.createElementVNode("view", { class: "top" }, [
@@ -1133,9 +1282,9 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  var ButtonArea = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["render", _sfc_render$s], ["__scopeId", "data-v-1ed3d168"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/information/components/ButtonArea.vue"]]);
-  const _sfc_main$u = {};
-  function _sfc_render$r(_ctx, _cache) {
+  var ButtonArea = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["render", _sfc_render$q], ["__scopeId", "data-v-1ed3d168"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/information/components/ButtonArea.vue"]]);
+  const _sfc_main$s = {};
+  function _sfc_render$p(_ctx, _cache) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "InfoList-container" }, [
       (vue.openBlock(), vue.createElementBlock(vue.Fragment, null, vue.renderList(10, (item) => {
         return vue.createElementVNode("view", {
@@ -1163,13 +1312,13 @@ if (uni.restoreGlobal) {
       }), 64))
     ]);
   }
-  var InfoList = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["render", _sfc_render$r], ["__scopeId", "data-v-93f24cce"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/information/components/InfoList.vue"]]);
-  const _sfc_main$t = {};
-  function _sfc_render$q(_ctx, _cache) {
+  var InfoList = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["render", _sfc_render$p], ["__scopeId", "data-v-93f24cce"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/information/components/InfoList.vue"]]);
+  const _sfc_main$r = {};
+  function _sfc_render$o(_ctx, _cache) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "GraBackground" });
   }
-  var GraBackground = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["render", _sfc_render$q], ["__scopeId", "data-v-1dc47b59"], ["__file", "C:/Users/Administrator/Desktop/test-template/components/GraBackground.vue"]]);
-  const _sfc_main$s = {
+  var GraBackground = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["render", _sfc_render$o], ["__scopeId", "data-v-1dc47b59"], ["__file", "C:/Users/Administrator/Desktop/test-template/components/GraBackground.vue"]]);
+  const _sfc_main$q = {
     __name: "index",
     setup(__props) {
       return (_ctx, _cache) => {
@@ -1182,8 +1331,8 @@ if (uni.restoreGlobal) {
       };
     }
   };
-  var PagesInformationIndex = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["__file", "C:/Users/Administrator/Desktop/test-template/pages/information/index.vue"]]);
-  const _sfc_main$r = {
+  var PagesInformationIndex = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["__file", "C:/Users/Administrator/Desktop/test-template/pages/information/index.vue"]]);
+  const _sfc_main$p = {
     data() {
       return {};
     },
@@ -1205,7 +1354,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$p(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$n(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "UserInfo-container" }, [
       vue.createElementVNode("view", { class: "setting" }, [
         vue.createElementVNode("image", {
@@ -1272,8 +1421,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  var UserInfo = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["render", _sfc_render$p], ["__scopeId", "data-v-02698530"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/components/UserInfo.vue"]]);
-  const _sfc_main$q = {
+  var UserInfo = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["render", _sfc_render$n], ["__scopeId", "data-v-02698530"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/components/UserInfo.vue"]]);
+  const _sfc_main$o = {
     data() {
       return {
         menusList: [
@@ -1313,7 +1462,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$o(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$m(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "CommonFunctions box-container" }, [
       vue.createElementVNode("view", { class: "title" }, "\u5E38\u7528\u529F\u80FD"),
       vue.createElementVNode("view", { class: "action-container" }, [
@@ -1333,8 +1482,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  var CommonFunctions = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["render", _sfc_render$o], ["__scopeId", "data-v-5f08071e"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/components/CommonFunctions.vue"]]);
-  const _sfc_main$p = {
+  var CommonFunctions = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["render", _sfc_render$m], ["__scopeId", "data-v-5f08071e"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/components/CommonFunctions.vue"]]);
+  const _sfc_main$n = {
     data() {
       return {
         menusList: [
@@ -1446,7 +1595,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$n(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$l(_ctx, _cache, $props, $setup, $data, $options) {
     return vue.openBlock(), vue.createElementBlock("view", { class: "OtherFunctions box-container" }, [
       vue.createElementVNode("view", { class: "title" }, "\u5176\u4ED6\u529F\u80FD"),
       vue.createElementVNode("view", { class: "action-container" }, [
@@ -1466,8 +1615,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  var OtherFunctions = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["render", _sfc_render$n], ["__scopeId", "data-v-78649b0c"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/components/OtherFunctions.vue"]]);
-  const _sfc_main$o = {
+  var OtherFunctions = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["render", _sfc_render$l], ["__scopeId", "data-v-78649b0c"], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/components/OtherFunctions.vue"]]);
+  const _sfc_main$m = {
     __name: "index",
     setup(__props) {
       return (_ctx, _cache) => {
@@ -1479,40 +1628,8 @@ if (uni.restoreGlobal) {
       };
     }
   };
-  var PagesMyIndex = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/index.vue"]]);
-  const _sfc_main$n = {
-    props: {
-      Title: String
-    },
-    data() {
-      return {};
-    },
-    methods: {
-      back() {
-        uni.navigateBack({
-          delta: 1
-        });
-      }
-    }
-  };
-  function _sfc_render$m(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_view_text = vue.resolveComponent("view-text");
-    return vue.openBlock(), vue.createElementBlock("view", { class: "titleBox" }, [
-      vue.createElementVNode("image", {
-        onClick: _cache[0] || (_cache[0] = (...args) => $options.back && $options.back(...args)),
-        class: "chatHead",
-        src: "/static/back.png"
-      }),
-      vue.createVNode(_component_view_text, { class: "title-xtxt" }, {
-        default: vue.withCtx(() => [
-          vue.createTextVNode(vue.toDisplayString($props.Title), 1)
-        ]),
-        _: 1
-      })
-    ]);
-  }
-  var Title = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["render", _sfc_render$m], ["__scopeId", "data-v-f41a3be6"], ["__file", "C:/Users/Administrator/Desktop/test-template/components/Title.vue"]]);
-  const _sfc_main$m = {
+  var PagesMyIndex = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/index.vue"]]);
+  const _sfc_main$l = {
     props: {
       personalInformationList: []
     },
@@ -1530,7 +1647,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$l(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$k(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_view_text = vue.resolveComponent("view-text");
     return vue.openBlock(true), vue.createElementBlock(vue.Fragment, null, vue.renderList($props.personalInformationList, (item, index) => {
       return vue.openBlock(), vue.createElementBlock("view", {
@@ -1558,8 +1675,8 @@ if (uni.restoreGlobal) {
       ]);
     }), 128);
   }
-  var OptionsList = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["render", _sfc_render$l], ["__scopeId", "data-v-2ee24051"], ["__file", "C:/Users/Administrator/Desktop/test-template/components/OptionsList.vue"]]);
-  const _sfc_main$l = {
+  var OptionsList = /* @__PURE__ */ _export_sfc(_sfc_main$l, [["render", _sfc_render$k], ["__scopeId", "data-v-2ee24051"], ["__file", "C:/Users/Administrator/Desktop/test-template/components/OptionsList.vue"]]);
+  const _sfc_main$k = {
     data() {
       return {
         personalInformationList: [
@@ -1600,7 +1717,7 @@ if (uni.restoreGlobal) {
     },
     methods: {}
   };
-  function _sfc_render$k(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$j(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_Title = vue.resolveComponent("Title");
     const _component_OptionsList = vue.resolveComponent("OptionsList");
     return vue.openBlock(), vue.createElementBlock("view", { class: "personalInformationBox" }, [
@@ -1623,8 +1740,8 @@ if (uni.restoreGlobal) {
       vue.createVNode(_component_OptionsList, { personalInformationList: $data.personalInformationList }, null, 8, ["personalInformationList"])
     ]);
   }
-  var PagesPersonalInformationPersonalInformation = /* @__PURE__ */ _export_sfc(_sfc_main$l, [["render", _sfc_render$k], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/personalInformation/personalInformation.vue"]]);
-  const _sfc_main$k = {
+  var PagesPersonalInformationPersonalInformation = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["render", _sfc_render$j], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/personalInformation/personalInformation.vue"]]);
+  const _sfc_main$j = {
     data() {
       return {
         list1: [{
@@ -1716,7 +1833,7 @@ if (uni.restoreGlobal) {
     },
     methods: {}
   };
-  function _sfc_render$j(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$i(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_Title = vue.resolveComponent("Title");
     const _component_OptionsList = vue.resolveComponent("OptionsList");
     return vue.openBlock(), vue.createElementBlock("view", { class: "companyHomepage" }, [
@@ -1735,8 +1852,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  var PagesMyCompanyHomepageCompanyHomepage = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["render", _sfc_render$j], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/companyHomepage/CompanyHomepage.vue"]]);
-  const _sfc_main$j = {
+  var PagesMyCompanyHomepageCompanyHomepage = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["render", _sfc_render$i], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/companyHomepage/CompanyHomepage.vue"]]);
+  const _sfc_main$i = {
     data() {
       return {
         list1: [{
@@ -1822,7 +1939,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$i(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$h(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_Title = vue.resolveComponent("Title");
     const _component_view_text = vue.resolveComponent("view-text");
     const _component_OptionsList = vue.resolveComponent("OptionsList");
@@ -1871,8 +1988,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  var PagesMyAccountSettingsAccountSettings = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["render", _sfc_render$i], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/accountSettings/AccountSettings.vue"]]);
-  const _sfc_main$i = {
+  var PagesMyAccountSettingsAccountSettings = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["render", _sfc_render$h], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/accountSettings/AccountSettings.vue"]]);
+  const _sfc_main$h = {
     data() {
       return {
         List1: [
@@ -1922,7 +2039,7 @@ if (uni.restoreGlobal) {
     },
     methods: {}
   };
-  function _sfc_render$h(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$g(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_Title = vue.resolveComponent("Title");
     const _component_OptionsList = vue.resolveComponent("OptionsList");
     return vue.openBlock(), vue.createElementBlock("view", { class: "accountSecurity" }, [
@@ -1935,8 +2052,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  var PagesMyAccountSecurityAccountSecurity = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["render", _sfc_render$h], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/accountSecurity/AccountSecurity.vue"]]);
-  const _sfc_main$h = {
+  var PagesMyAccountSecurityAccountSecurity = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["render", _sfc_render$g], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/accountSecurity/AccountSecurity.vue"]]);
+  const _sfc_main$g = {
     data() {
       return {
         list: [
@@ -1967,7 +2084,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$g(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$f(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_Title = vue.resolveComponent("Title");
     const _component_view_text = vue.resolveComponent("view-text");
     return vue.openBlock(), vue.createElementBlock("view", { class: "suppliersBox" }, [
@@ -2007,8 +2124,8 @@ if (uni.restoreGlobal) {
       ])
     ]);
   }
-  var PagesMySuppliersSuppliers = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["render", _sfc_render$g], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/suppliers/Suppliers.vue"]]);
-  const _sfc_main$g = {
+  var PagesMySuppliersSuppliers = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["render", _sfc_render$f], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/suppliers/Suppliers.vue"]]);
+  const _sfc_main$f = {
     data() {
       return {};
     },
@@ -2023,7 +2140,7 @@ if (uni.restoreGlobal) {
       }
     }
   };
-  function _sfc_render$f(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$e(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_view_text = vue.resolveComponent("view-text");
     return vue.openBlock(), vue.createElementBlock("view", { class: "releaseBox" }, [
       (vue.openBlock(true), vue.createElementBlock(vue.Fragment, null, vue.renderList($props.list, (item, index) => {
@@ -2078,8 +2195,8 @@ if (uni.restoreGlobal) {
       }), 128))
     ]);
   }
-  var ProductsList = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["render", _sfc_render$f], ["__scopeId", "data-v-9f491c06"], ["__file", "C:/Users/Administrator/Desktop/test-template/components/ProductsList.vue"]]);
-  const _sfc_main$f = {
+  var ProductsList = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["render", _sfc_render$e], ["__scopeId", "data-v-9f491c06"], ["__file", "C:/Users/Administrator/Desktop/test-template/components/ProductsList.vue"]]);
+  const _sfc_main$e = {
     data() {
       return {
         list1: [
@@ -2119,7 +2236,7 @@ if (uni.restoreGlobal) {
       ProductsList
     }
   };
-  function _sfc_render$e(_ctx, _cache, $props, $setup, $data, $options) {
+  function _sfc_render$d(_ctx, _cache, $props, $setup, $data, $options) {
     const _component_Title = vue.resolveComponent("Title");
     const _component_ProductsList = vue.resolveComponent("ProductsList");
     return vue.openBlock(), vue.createElementBlock("view", { class: "releaseBox" }, [
@@ -2130,124 +2247,7 @@ if (uni.restoreGlobal) {
       }, null, 8, ["list"])
     ]);
   }
-  var PagesMyReleaseRelease = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["render", _sfc_render$e], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/release/Release.vue"]]);
-  const _sfc_main$e = {
-    data() {
-      return {
-        loginName: "\u9A8C\u8BC1\u7801\u767B\u5F55",
-        loginPrompt: "\u9996\u6B21\u767B\u5F55\u5C06\u81EA\u52A8\u6CE8\u518C",
-        verificationCode: "\u91CD\u65B0\u83B7\u53D6"
-      };
-    },
-    components: {
-      Title
-    },
-    methods: {
-      login() {
-        uni.switchTab({
-          url: "/pages/index/index"
-        });
-      }
-    }
-  };
-  function _sfc_render$d(_ctx, _cache, $props, $setup, $data, $options) {
-    const _component_view_text = vue.resolveComponent("view-text");
-    return vue.openBlock(), vue.createElementBlock("view", { class: "loginBox" }, [
-      vue.createElementVNode("view", { class: "signQuickly" }, [
-        vue.createVNode(_component_view_text, null, {
-          default: vue.withCtx(() => [
-            vue.createTextVNode("\u5FEB\u901F\u767B\u5F55")
-          ]),
-          _: 1
-        }),
-        vue.createElementVNode("image", {
-          class: "detailsImg",
-          src: "/static/rightClick.png",
-          mode: ""
-        })
-      ]),
-      vue.createElementVNode("view", { class: "loginName" }, vue.toDisplayString($data.loginName), 1),
-      vue.createElementVNode("view", { class: "loginPrompt" }, vue.toDisplayString($data.loginPrompt), 1),
-      vue.createElementVNode("view", { class: "input" }, [
-        vue.createElementVNode("view", { class: "user" }, [
-          vue.createElementVNode("input", {
-            type: "text",
-            placeholder: "\u624B\u673A\u53F7"
-          })
-        ]),
-        vue.createElementVNode("view", { class: "password" }, [
-          vue.createElementVNode("input", {
-            type: "password",
-            placeholder: "\u8BF7\u8F93\u5165\u9A8C\u8BC1\u7801"
-          }),
-          vue.createVNode(_component_view_text, { class: "verificationCode" }, {
-            default: vue.withCtx(() => [
-              vue.createTextVNode(vue.toDisplayString($data.verificationCode), 1)
-            ]),
-            _: 1
-          })
-        ])
-      ]),
-      vue.createElementVNode("view", { class: "agreement" }, [
-        vue.createElementVNode("image", {
-          class: "img",
-          src: "/static/consent.png"
-        }),
-        vue.createVNode(_component_view_text, { class: "text1" }, {
-          default: vue.withCtx(() => [
-            vue.createTextVNode("\u6211\u5DF2\u9605\u8BFB\xA0")
-          ]),
-          _: 1
-        }),
-        vue.createVNode(_component_view_text, { class: "text2" }, {
-          default: vue.withCtx(() => [
-            vue.createTextVNode("\u827E\u4E50\u535A\u670D\u52A1\u534F\u8BAE")
-          ]),
-          _: 1
-        }),
-        vue.createVNode(_component_view_text, { class: "text1" }, {
-          default: vue.withCtx(() => [
-            vue.createTextVNode("\xA0\u548C\xA0")
-          ]),
-          _: 1
-        }),
-        vue.createVNode(_component_view_text, { class: "text2" }, {
-          default: vue.withCtx(() => [
-            vue.createTextVNode("\u9690\u79C1\u653F\u7B56")
-          ]),
-          _: 1
-        })
-      ]),
-      vue.createElementVNode("view", {
-        onClick: _cache[0] || (_cache[0] = (...args) => $options.login && $options.login(...args)),
-        class: "login"
-      }, " \u767B\u5F55 "),
-      vue.createElementVNode("view", { class: "doubt" }, [
-        vue.createVNode(_component_view_text, null, {
-          default: vue.withCtx(() => [
-            vue.createTextVNode("\u9A8C\u8BC1\u7801\u767B\u5F55")
-          ]),
-          _: 1
-        }),
-        vue.createVNode(_component_view_text, null, {
-          default: vue.withCtx(() => [
-            vue.createTextVNode("\u6536\u4E0D\u5230\u9A8C\u8BC1\u7801?")
-          ]),
-          _: 1
-        })
-      ]),
-      vue.createElementVNode("view", { class: "tertiaryPeriod" }, [
-        vue.createVNode(_component_view_text, null, {
-          default: vue.withCtx(() => [
-            vue.createTextVNode("\u7B2C\u4E09\u65B9\u767B\u5F55")
-          ]),
-          _: 1
-        }),
-        vue.createElementVNode("view", { class: "wx" })
-      ])
-    ]);
-  }
-  var PagesMyLonginLongin = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["render", _sfc_render$d], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/longin/Longin.vue"]]);
+  var PagesMyReleaseRelease = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["render", _sfc_render$d], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/release/Release.vue"]]);
   const _sfc_main$d = {
     data() {
       return {};
@@ -3327,6 +3327,7 @@ if (uni.restoreGlobal) {
     return vue.openBlock(), vue.createElementBlock("view");
   }
   var PagesMyCompanyInformationCompanyInformation = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["render", _sfc_render], ["__file", "C:/Users/Administrator/Desktop/test-template/pages/my/companyInformation/CompanyInformation.vue"]]);
+  __definePage("pages/my/longin/Longin", PagesMyLonginLongin);
   __definePage("pages/index/index", PagesIndexIndex);
   __definePage("pages/supAndDem/index", PagesSupAndDemIndex);
   __definePage("pages/information/index", PagesInformationIndex);
@@ -3337,7 +3338,6 @@ if (uni.restoreGlobal) {
   __definePage("pages/my/accountSecurity/AccountSecurity", PagesMyAccountSecurityAccountSecurity);
   __definePage("pages/my/suppliers/Suppliers", PagesMySuppliersSuppliers);
   __definePage("pages/my/release/Release", PagesMyReleaseRelease);
-  __definePage("pages/my/longin/Longin", PagesMyLonginLongin);
   __definePage("pages/my/signUp/SignUp", PagesMySignUpSignUp);
   __definePage("pages/my/transaction/Transaction", PagesMyTransactionTransaction);
   __definePage("pages/my/transactionDemandInformation/TransactionDemandInformation", PagesMyTransactionDemandInformationTransactionDemandInformation);
@@ -3353,12 +3353,18 @@ if (uni.restoreGlobal) {
   const _sfc_main = {
     onLaunch: function() {
       formatAppLog("log", "at App.vue:4", "App Launch");
+      uni.reLaunch({
+        url: "/pages/my/longin/Longin",
+        success: () => {
+          plus.navigator.closeSplashscreen();
+        }
+      });
     },
     onShow: function() {
-      formatAppLog("log", "at App.vue:7", "App Show");
+      formatAppLog("log", "at App.vue:15", "App Show");
     },
     onHide: function() {
-      formatAppLog("log", "at App.vue:10", "App Hide");
+      formatAppLog("log", "at App.vue:18", "App Hide");
     }
   };
   var App = /* @__PURE__ */ _export_sfc(_sfc_main, [["__file", "C:/Users/Administrator/Desktop/test-template/App.vue"]]);

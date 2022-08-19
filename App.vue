@@ -2,13 +2,21 @@
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')
+			//不存在则跳转登录页
+			uni.reLaunch({
+				url:"/pages/my/longin/Longin",
+				success:()=>{
+					//跳转完页面后再关闭启动页
+					plus.navigator.closeSplashscreen();
+				}
+			})
 		},
 		onShow: function() {
 			console.log('App Show')
 		},
 		onHide: function() {
 			console.log('App Hide')
-		}
+		},
 	}
 </script>
 
