@@ -23,7 +23,7 @@
 /* 水平间距 */
 .product[data-v-9f491c06] {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 0 0.625rem 0.46875rem;
   padding: 0.9375rem 0.3125rem;
@@ -44,7 +44,7 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin-left: 0.9375rem;
+  width: 12.5rem;
 }
 .product .message .text1[data-v-9f491c06] {
   margin-bottom: 0.3125rem;

@@ -9,7 +9,7 @@
 		<image
 		 class="set-img"
 			mode="aspectFit"
-			src="/static/logo.png"
+			src="/static/sydt.png"
 		></image>
 	</view>
 </template>

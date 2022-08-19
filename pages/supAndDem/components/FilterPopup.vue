@@ -6,7 +6,7 @@
 					<view>筛选条件</view>
 					<image
 						class="close-icon"
-						src=""
+						src="/static/sl.png"
 						@click="close"
 					></image>
 				</view>

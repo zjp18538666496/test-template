@@ -5,7 +5,7 @@
 				<view class="image-container bg1">
 					<image
 						class="image"
-						src=""
+						src="/static/gxtx.png"
 					></image>
 				</view>
 				<view class="tips">1</view>
@@ -17,7 +17,7 @@
 				<view class="image-container bg2">
 					<image
 						class="image"
-						src=""
+						src="/static/xttz.png"
 					></image>
 				</view>
 				<view class="tips">1</view>
@@ -42,21 +42,24 @@
 		.one-button {
 			.top {
 				position: relative;
-				.bg1 {
-					background: linear-gradient(135deg, #00C0FF, #0F5FFF);
-				}
-				.bg2 {
-					background: linear-gradient(-26deg, #539DFF, #507EFF);
-				}
+				// .bg1 {
+				// 	background: linear-gradient(135deg, #00C0FF, #0F5FFF);
+				// }
+				// .bg2 {
+				// 	background: linear-gradient(-26deg, #539DFF, #507EFF);
+				// }
 				.image-container {
+					display: flex;
+					justify-content: center;
+					align-items: center;
 					box-shadow: 0px 0px 18px 0px rgba(0,136,255,0.3000);
 					border-radius: 50%;
 					width: 92rpx;
 					height: 92rpx;
 					margin: 0 auto;
 					.image {
-						width: 48rpx;
-						height: 48rpx;
+						width: 92rpx;
+						height: 92rpx;
 					}
 				}
 				.tips {

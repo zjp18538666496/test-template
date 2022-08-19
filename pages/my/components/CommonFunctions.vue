@@ -3,7 +3,7 @@
 		<view class="title">常用功能</view>
 		<view class="action-container">
 			<view @click="openPage(index)" class="one-button" v-for="(item,index) in menusList" :key="index">
-				<image :class="item.className" src="/static/logo.png"></image>
+				<image :class="item.className" :src="item.src"></image>
 				<view class="button-text">{{ item.name }}</view>
 			</view>
 		</view>
@@ -16,25 +16,25 @@
 			return {
 				menusList: [{
 						name: "我的发布",
-						src: "",
+						src: "/static/wdfb.png",
 						className: "icon1",
 						url: "/pages/my/release/Release"
 					},
 					{
 						name: "我的收藏",
-						src: "",
+						src: "/static/wdsc.png",
 						className: "icon2",
 						url: ""
 					},
 					{
 						name: "我的关注",
-						src: "",
+						src: "/static/wdgz.png",
 						className: "icon3",
 						url: ""
 					},
 					{
 						name: "公司主页",
-						src: "",
+						src: "/static/gszy.png",
 						className: "icon4",
 						url: "/pages/my/companyHomepage/CompanyHomepage"
 					}

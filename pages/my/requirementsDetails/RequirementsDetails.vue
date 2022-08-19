@@ -18,9 +18,9 @@
 				<view-text class="text1">实物参照</view-text>
 				<view class="input2">
 					<view class="imgBox">
-						<image class="detailsImg" src="/static/logo.png"></image>
+						<image class="detailsImg" src="/static/tc2.png"></image>
 						<view style="width: 10rpx;"></view>
-						<image class="detailsImg" src="/static/logo.png"></image>
+						<image class="detailsImg" src="/static/tc3.png"></image>
 						<view style="width: 10rpx;"></view>
 						<image class="detailsImg" src="/static/add.png"></image>
 					</view>

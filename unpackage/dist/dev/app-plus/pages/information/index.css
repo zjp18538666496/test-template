@@ -12,13 +12,10 @@
 .ButtonArea-container .one-button .top[data-v-1ed3d168] {
   position: relative;
 }
-.ButtonArea-container .one-button .top .bg1[data-v-1ed3d168] {
-  background: linear-gradient(135deg, #00C0FF, #0F5FFF);
-}
-.ButtonArea-container .one-button .top .bg2[data-v-1ed3d168] {
-  background: linear-gradient(-26deg, #539DFF, #507EFF);
-}
 .ButtonArea-container .one-button .top .image-container[data-v-1ed3d168] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-shadow: 0px 0px 18px 0px rgba(0, 136, 255, 0.3);
   border-radius: 50%;
   width: 2.875rem;
@@ -26,8 +23,8 @@
   margin: 0 auto;
 }
 .ButtonArea-container .one-button .top .image-container .image[data-v-1ed3d168] {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2.875rem;
+  height: 2.875rem;
 }
 .ButtonArea-container .one-button .top .tips[data-v-1ed3d168] {
   width: 1rem;
@@ -75,20 +72,20 @@
   justify-content: center;
 }
 .InfoList-container .one-info .image-container .icon0[data-v-93f24cce] {
-  width: 1.1875rem;
-  height: 1.5625rem;
+  width: 2.875rem;
+  height: 2.875rem;
 }
 .InfoList-container .one-info .image-container .icon1[data-v-93f24cce] {
-  width: 1.5625rem;
-  height: 1.5625rem;
+  width: 2.875rem;
+  height: 2.875rem;
 }
 .InfoList-container .one-info .image-container .icon2[data-v-93f24cce] {
-  width: 1.3125rem;
-  height: 1.3125rem;
+  width: 2.875rem;
+  height: 2.875rem;
 }
 .InfoList-container .one-info .image-container .icon3[data-v-93f24cce] {
-  width: 1.5625rem;
-  height: 1.3125rem;
+  width: 2.875rem;
+  height: 2.875rem;
 }
 .InfoList-container .one-info .bg0[data-v-93f24cce] {
   background: linear-gradient(135deg, #FF9000, #FF4A00);

@@ -10,7 +10,7 @@
 			</view>
 			<view class="data-list">
 				<view class="quote" v-for="item in 4" :key="item">
-					<image class="quote-img" src="/static/logo.png"></image>
+					<image class="quote-img" src="/static/tc2.png"></image>
 					<view class="quote-right">
 						<view class="quote-title">大量采购手机芯片</view>
 						<view class="quote-details">联系方式：152XXXXXX49</view>

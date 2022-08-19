@@ -3,7 +3,7 @@
 		<view class="title">其他功能</view>
 		<view class="action-container">
 			<view class="one-button" v-for="(item,index) in menusList" :key="item.name" @click="openPage(index)">
-				<image :class="item.className" src="/static/logo.png"></image>
+				<image :class="item.className" :src="item.src"></image>
 				<view class="button-text">{{ item.name }}</view>
 			</view>
 		</view>
@@ -16,63 +16,99 @@
 			return {
 				menusList: [{
 						name: "企业认证",
-						src: "",
+						src: "/static/qyrz.png",
 						className: "icon1",
 						url: ""
 					},
 					{
 						name: "联系客服",
-						src: "",
+						src: "/static/lxkf.png",
 						className: "icon2",
-						url: ""
+						url: "/static/qyrz.png"
 					},
 					{
 						name: "问题反馈",
-						src: "",
+						src: "/static/wtfk.png",
 						className: "icon3",
 						url: ""
 					},
 					{
 						name: "我的发票",
-						src: "",
+						src: "/static/wdfp.png",
 						className: "icon4",
 						url: ""
 					},
 					{
 						name: "交易举报",
-						src: "",
+						src: "/static/jyjb.png",
 						className: "icon5",
 						url: ""
 					},
 					{
 						name: "我的活动",
-						src: "",
+						src: "/static/wdhd.png",
 						className: "icon6",
 						url: ""
 					},
 					{
 						name: "我的成交",
-						src: "",
+						src: "/static/wdcj.png",
 						className: "icon7",
 						url: "/pages/my/transaction/Transaction"
 					},
 					{
 						name: "常用功能",
-						src: "",
+						src: "/static/cygn.png",
 						className: "icon8",
-						url: "/pages/my/signUp/SignUp"
+						url: ""
 					},
 					{
 						name: "发布供应",
-						src: "",
+						src: "/static/qyrz.png",
 						className: "icon8",
 						url: "/pages/my/supply/Supply"
 					},
 					{
 						name: "发布需求",
-						src: "",
+						src: "/static/qyrz.png",
 						className: "icon8",
 						url: "/pages/my/demand/Demand"
+					},
+					{
+						name: "注册",
+						src: "/static/qyrz.png",
+						className: "icon8",
+						url: "/pages/my/signUp/SignUp"
+					},
+					{
+						name: "登录",
+						src: "/static/qyrz.png",
+						className: "icon8",
+						url: "/pages/my/longin/Longin"
+					},
+					{
+						name: "企业列表",
+						src: "/static/qyrz.png",
+						className: "icon8",
+						url: "/pages/my/enterpriseList/EnterpriseList"
+					},
+					{
+						name: "智能匹配",
+						src: "/static/qyrz.png",
+						className: "icon8",
+						url: "/pages/my/smartMatching/SmartMatching"
+					},
+					{
+						name: "企业入驻",
+						src: "/static/qyrz.png",
+						className: "icon8",
+						url: "/pages/my/enterpriseSettled/EnterpriseSettled"
+					},
+					{
+						name: "企业信息",
+						src: "/static/qyrz.png",
+						className: "icon8",
+						url: "/pages/my/companyInformation/CompanyInformation"
 					},
 				]
 			}

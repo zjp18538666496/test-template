@@ -3,16 +3,16 @@
 		<Title></Title>
 		<view class="currentBox">
 			<view-text class='current'>当前为</view-text>
-			<view-text class='role'>需求方</view-text>
+			<view-text class='role'>{{list[num].role}}</view-text>
 		</view>
 		<view class="illustrate">
-			<view-text>我来提供设备,成产加工</view-text>
+			<view-text>{{list[num].illustrate}}</view-text>
 		</view>
 		<view class="img">
-			
+			<image :src="list[num].src"></image>
 		</view>
 		<view class="">
-			<button class="btnExit">切换为采购商</button>
+			<button @click="btnExit" class="btnExit">{{list[num].btn}}</button>
 		</view>
 	</view>
 </template>
@@ -22,14 +22,33 @@
 	export default {
 		data() {
 			return {
-
+				list:[
+					{
+						role:"供应商",
+						illustrate:"我来提供设备,成产加工",
+						src:"/static/0.png",
+						btn:"切换为采购商"
+					},
+					{
+						role:"采购商",
+						illustrate:"我有制作需求,寻找厂商",
+						src:"/static/xqf.png",
+						btn:"切换为需求方"
+					}
+				],
+				is:true,
+				num:0
+				
 			}
 		},
 		components: {
 			Title,
 		},
 		methods: {
-
+			btnExit(){
+				this.is = !this.is
+				this.num = this.is == true ? 0 : 1;
+			}
 		}
 	}
 </script>
@@ -88,6 +107,9 @@
 			line-height: 36rpx;
 		}
 		.img {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			width: 750rpx;
 			height: 554rpx;
 		}

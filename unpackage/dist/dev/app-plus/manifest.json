@@ -100,33 +100,33 @@
       "borderStyle": "rgba(0,0,0,0.4)",
       "blurEffect": "none",
       "fontSize": "10px",
-      "iconWidth": "24px",
+      "iconWidth": "20px",
       "spacing": "3px",
       "height": "50px",
       "backgroundColor": "#ffffff",
       "list": [
         {
           "pagePath": "pages/index/index",
-          "iconPath": "/static/uni.png",
-          "selectedIconPath": "/static/uni.png",
+          "iconPath": "/static/sy1.png",
+          "selectedIconPath": "/static/sy2.png",
           "text": "首页"
         },
         {
           "pagePath": "pages/supAndDem/index",
-          "iconPath": "/static/logo.png",
-          "selectedIconPath": "/static/logo.png",
+          "iconPath": "/static/gx1.png",
+          "selectedIconPath": "/static/gx2.png",
           "text": "供需"
         },
         {
           "pagePath": "pages/information/index",
-          "iconPath": "/static/logo.png",
-          "selectedIconPath": "/static/logo.png",
+          "iconPath": "/static/xx1.png",
+          "selectedIconPath": "/static/xx2.png",
           "text": "信息"
         },
         {
           "pagePath": "pages/my/index",
-          "iconPath": "/static/logo.png",
-          "selectedIconPath": "/static/logo.png",
+          "iconPath": "/static/wd1.png",
+          "selectedIconPath": "/static/wd2.png",
           "text": "我的"
         }
       ],

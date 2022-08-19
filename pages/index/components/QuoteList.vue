@@ -6,7 +6,7 @@
 				<view class="more-name">更多报价</view>
 				<image
 					class="icon"
-					src=""
+					src="/static/rightClick.png"
 				></image>
 			</view>
 		</view>
@@ -18,7 +18,7 @@
 			>
 				<image
 					class="quote-img"
-					src="/static/logo.png"
+					src="/static/tc2.png"
 				></image>
 				<view class="quote-right">
 					<view class="quote-title">大量采购手机芯片</view>
@@ -68,7 +68,6 @@
 				.icon {
 					width: 8px;
 					height: 13px;
-					background-color: #999999;
 				}
 			}
 		}

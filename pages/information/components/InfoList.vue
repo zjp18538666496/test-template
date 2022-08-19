@@ -9,7 +9,7 @@
 				<view :class="`image-container bg${ item % 4 }`">
 					<image
 						:class="`icon${ item % 4 }`"
-						src="/static/logo.png"
+						src="/static/yqyxqbj.png"
 					></image>
 				</view>
 			</view>
@@ -50,20 +50,20 @@
 				align-items: center;
 				justify-content: center;
 				.icon0 {
-					width: 38rpx;
-					height: 50rpx;
+					width: 92rpx;
+					height: 92rpx;
 				}
 				.icon1 {
-					width: 50rpx;
-					height: 50rpx;
+					width: 92rpx;
+					height: 92rpx;
 				}
 				.icon2 {
-					width: 42rpx;
-					height: 42rpx;
+					width: 92rpx;
+					height: 92rpx;
 				}
 				.icon3 {
-					width: 50rpx;
-					height: 42rpx;
+					width: 92rpx;
+					height: 92rpx;
 				}
 			}
 			.bg0 {

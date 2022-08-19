@@ -1,12 +1,12 @@
 <template>
 	<view class="UserInfo-container">
 		<view class="setting">
-			<image class="icon" @click="openSettings" src="/static/logo.png"></image>
-			<image class="icon" src="/static/logo.png"></image>
+			<image class="icon" @click="openSettings" src="/static/sz.png"></image>
+			<image class="icon" src="/static/jl.png"></image>
 		</view>
 		<view class="userInfo">
 			<view @click="switchSuppliers" class="left">
-				<image class="avatar" src="/static/logo.png"></image>
+				<image class="avatar" src="/static/chatHead.png"></image>
 				<view class="identity">
 					<image class="icon" src=""></image>
 					<view>需求方</view>

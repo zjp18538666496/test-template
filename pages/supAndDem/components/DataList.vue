@@ -16,7 +16,7 @@
 				<image 
 					class="left-image"
 					mode="aspectFit"
-					src="/static/logo.png"
+					src="/static/tc2.png"
 				></image>
 				<view class="right-data">
 					<view class="line">

@@ -38,11 +38,16 @@
   width: 11.25rem;
 }
 .SearchContainer .add[data-v-3f62acf6] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1.75rem;
   height: 1.75rem;
   background: linear-gradient(-38deg, #33A0FF, #2852FF);
   box-shadow: 0 0 0.5rem 0 rgba(38, 94, 255, 0.3);
   border-radius: 50%;
+  font-size: 1.40625rem;
+  color: #fdfdfd;
 }
 /* 水平间距 */
 /* 水平间距 */

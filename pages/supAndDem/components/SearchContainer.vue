@@ -18,7 +18,7 @@
 			/>
 		</view>
 		<view class="add">
-			
+			+
 		</view>
 	</view>
 </template>
@@ -64,11 +64,16 @@
 			}
 		}
 		.add {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			width: 56rpx;
 			height: 56rpx;
 			background: linear-gradient(-38deg, #33A0FF, #2852FF);
 			box-shadow: 0rpx 0rpx 16rpx 0rpx rgba(38, 94, 255, 0.3000);
 			border-radius: 50%;
+			font-size: 45rpx;
+			color: #fdfdfd;
 		}
 	}
 </style>

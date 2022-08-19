@@ -25,10 +25,10 @@
 
 <script setup>
 	const menusList = [
-		{ name: "市场需求", src: "/static/logo.png", url: "" },
-		{ name: "展会活动", src: "/static/logo.png", url: "" },
-		{ name: "企业资讯", src: "/static/logo.png", url: "" },
-		{ name: "智能匹配", src: "/static/logo.png", url: "" }
+		{ name: "市场需求", src: "/static/scxq.png", url: "" },
+		{ name: "展会活动", src: "/static/zhhd.png", url: "" },
+		{ name: "企业资讯", src: "/static/qyzx.png", url: "" },
+		{ name: "智能匹配", src: "/static/znpp.png", url: "" }
 	]
 </script>
 

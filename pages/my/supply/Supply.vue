@@ -36,11 +36,11 @@
 				实物参照
 			</view>
 			<view class="imgBox">
-				<image class="detailsImg" src="/static/logo.png"></image>
-				<image class="detailsImg" src="/static/logo.png"></image>
-				<image class="detailsImg" src="/static/logo.png"></image>
-				<image class="detailsImg" src="/static/logo.png"></image>
-				<image class="detailsImg" src="/static/logo.png"></image>
+				<image class="detailsImg" src="/static/tc2.png"></image>
+				<image class="detailsImg" src="/static/tc3.png"></image>
+				<image class="detailsImg" src="/static/tc4.png"></image>
+				<image class="detailsImg" src="/static/tc2.png"></image>
+				<image class="detailsImg" src="/static/tc3.png"></image>
 				<image class="detailsImg" src="/static/add.png"></image>
 			</view>
 		</view>
