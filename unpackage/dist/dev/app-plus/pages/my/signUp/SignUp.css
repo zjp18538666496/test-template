@@ -1,0 +1,144 @@
+/* 水平间距 */
+/* 水平间距 */
+.titleBox[data-v-f41a3be6] {
+  margin-bottom: 0.625rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleBox .chatHead[data-v-f41a3be6] {
+  position: absolute;
+  left: 0.625rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.titleBox .title-xtxt[data-v-f41a3be6] {
+  font-size: 1rem;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #1A1A1A;
+}
+/* 水平间距 */
+/* 水平间距 */
+body {
+  padding-top: 2.1875rem;
+}
+.signUpBox .roleBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.875rem 1.25rem 0;
+}
+.signUpBox .roleBox .role1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 9.375rem;
+  height: 7.8125rem;
+  border-radius: 0.15625rem;
+  background-color: #03A7EF;
+}
+.signUpBox .roleBox .role2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 9.375rem;
+  height: 7.8125rem;
+  border-radius: 0.15625rem;
+  background-color: #D7D7D7;
+}
+.signUpBox .roleBox .head {
+  margin-bottom: 0.625rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.signUpBox .roleBox .text1 {
+  margin-bottom: 0.625rem;
+  font-size: 0.75rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #fff;
+}
+.signUpBox .roleBox .text3 {
+  font-size: 0.75rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #fff;
+}
+.signUpBox .roleBox .text2 {
+  margin-bottom: 0.625rem;
+  font-size: 0.75rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666;
+}
+.signUpBox .roleBox .text4 {
+  font-size: 0.75rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666;
+}
+.signUpBox .signUp {
+  position: relative;
+  background-color: #F2F2F2;
+  margin: 2.5rem 1.25rem 1.875rem 1.25rem;
+  padding: 0.3125rem 0.625rem;
+}
+.signUpBox .signUp .input1 {
+  margin-top: 0.15625rem;
+  border-bottom: 1px solid #D7D7D7;
+  padding: 0.625rem 0 0.625rem 1.25rem;
+}
+.signUpBox .signUp .input2 {
+  margin-top: 0.15625rem;
+  padding: 0.625rem 0 0.625rem 1.25rem;
+}
+.signUpBox .signUp .getProperty {
+  position: absolute;
+  top: 0.78125rem;
+  right: 0.625rem;
+  font-size: 0.75rem;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #868686;
+}
+.signUpBox .login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.25rem 1.40625rem 1.25rem;
+  height: 2.90625rem;
+  background: #03A7EF;
+  border-radius: 0.15625rem;
+  font-size: 0.9375rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.signUpBox .agreement {
+  display: flex;
+  align-items: center;
+  margin: 0 1.25rem 1.28125rem 1.25rem;
+}
+.signUpBox .agreement .img {
+  margin-right: 0.40625rem;
+  width: 0.8125rem;
+  height: 0.8125rem;
+}
+.signUpBox .agreement .text1 {
+  font-size: 0.84375rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #B3B3B3;
+}
+.signUpBox .agreement .text2 {
+  font-size: 0.84375rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #03A7EF;
+}

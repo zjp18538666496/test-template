@@ -1,0 +1,104 @@
+/* 水平间距 */
+/* 水平间距 */
+.titleBox[data-v-f41a3be6] {
+  margin-bottom: 0.625rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleBox .chatHead[data-v-f41a3be6] {
+  position: absolute;
+  left: 0.625rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.titleBox .title-xtxt[data-v-f41a3be6] {
+  font-size: 1rem;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #1A1A1A;
+}
+/* 水平间距 */
+/* 水平间距 */
+body {
+  padding-top: 2.1875rem;
+  padding-bottom: 0.625rem;
+}
+.card {
+  margin: 1.875rem 0.9375rem 1.875rem 0.9375rem;
+  padding: 1.25rem 0.9375rem;
+  width: 19.6875rem;
+  background: #FFFFFF;
+  border-radius: 0.75rem;
+}
+.card .requirements {
+  margin-bottom: 1.65625rem;
+  font-size: 0.9375rem;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #1A1A1A;
+}
+.card .input1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.card .input1 .text1 {
+  font-size: 0.75rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  margin-right: 1.875rem;
+}
+.card .input1 uni-input {
+  width: 13.59375rem;
+  height: 1.8125rem;
+  padding-left: 0.625rem;
+  background: #FAFAFA;
+  border-radius: 8px;
+}
+.card .input2 {
+  display: flex;
+  align-items: flex-start;
+}
+.card .input2 .text1 {
+  font-size: 0.75rem;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  margin-right: 1.875rem;
+}
+.card .input2 uni-input {
+  width: 13.59375rem;
+  height: 8.5rem;
+  padding-left: 0.625rem;
+  background: #FAFAFA;
+  border-radius: 8px;
+}
+.card .imgBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card .imgBox uni-image {
+  margin-left: 0.3125rem;
+  margin-bottom: 0.3125rem;
+  width: 6.1875rem;
+  height: 6.1875rem;
+  background: #FAFAFA;
+  border-radius: 0.5625rem;
+}
+.btn {
+  margin: 0 0.9375rem 0.3125rem 0.9375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9375rem;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+  width: 21.5625rem;
+  height: 2.875rem;
+  background: #2858FF;
+  border-radius: 46px;
+}
