@@ -26,7 +26,7 @@
 			<OptionsList :personalInformationList="list4"></OptionsList>
 		</view>
 		<view class="">
-			<button class="btnExit">退出当前账号</button>
+			<button @click="btnExit" class="btnExit">退出当前账号</button>
 		</view>
 	</view>
 </template>
@@ -113,7 +113,11 @@
 			OptionsList
 		},
 		methods: {
-
+			btnExit(){
+				uni.navigateTo({
+					url: '../../my/longin/Longin',
+				});
+			}
 		}
 	}
 </script>

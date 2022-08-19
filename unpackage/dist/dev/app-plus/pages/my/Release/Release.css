@@ -21,50 +21,46 @@
 }
 /* 水平间距 */
 /* 水平间距 */
-body {
-  padding-top: 2.1875rem;
-  background-color: #F8F7FE;
-}
-.product {
+.product[data-v-9f491c06] {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0.625rem 0.3125rem;
+  margin: 0 0.625rem 0.46875rem;
   padding: 0.9375rem 0.3125rem;
   border-radius: 0.75rem;
   background-color: #FFFFFF;
 }
-.product .imageBox {
+.product .imageBox[data-v-9f491c06] {
   width: 6.25rem;
   height: 6.25rem;
   background: #FFFFFF;
   border-radius: 22px;
 }
-.product .imageBox uni-image {
+.product .imageBox uni-image[data-v-9f491c06] {
   width: 100%;
   height: 100%;
 }
-.product .message {
+.product .message[data-v-9f491c06] {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   margin-left: 0.9375rem;
 }
-.product .message .text1 {
+.product .message .text1[data-v-9f491c06] {
   margin-bottom: 0.3125rem;
   font-size: 0.9375rem;
   font-family: PingFang SC;
   font-weight: bold;
   color: #1A1A1A;
 }
-.product .message .text2 {
+.product .message .text2[data-v-9f491c06] {
   margin-bottom: 0.5625rem;
   font-size: 0.6875rem;
   font-family: PingFang SC;
   font-weight: 400;
   color: #999999;
 }
-.product .message .text3box {
+.product .message .text3box[data-v-9f491c06] {
   margin-bottom: 0.9375rem;
   width: 3.75rem;
   display: flex;
@@ -73,28 +69,37 @@ body {
   background: #E6ECFF;
   border-radius: 0.15625rem;
 }
-.product .message .text3box .text3 {
+.product .message .text3box .text3[data-v-9f491c06] {
   font-size: 0.6875rem;
   font-family: PingFang SC;
   font-weight: 500;
   color: #2858FF;
   line-height: 1.125rem;
 }
-.product .message .text4Box {
+.product .message .text4Box[data-v-9f491c06] {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: center;
 }
-.product .message .text4Box .text4 {
+.product .message .text4Box .text4[data-v-9f491c06] {
   font-size: 0.75rem;
   font-family: PingFang SC;
   font-weight: 400;
   color: #999999;
 }
-.product .message .text4Box .text5 {
+.product .message .text4Box .text5[data-v-9f491c06] {
   font-size: 1rem;
   font-family: PingFang SC;
   font-weight: bold;
   color: #FF563F;
+}
+/* 水平间距 */
+/* 水平间距 */
+body {
+  padding-top: 2.1875rem;
+  background-color: #F8F7FE;
+}
+.productsList {
+  margin-top: 1.25rem;
 }
