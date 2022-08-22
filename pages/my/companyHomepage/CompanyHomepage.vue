@@ -12,7 +12,7 @@
 			<OptionsList :personalInformationList="list3"></OptionsList>
 		</view>
 		<view class="">
-				<button class="btnSave">保存</button>
+				<button class="btnSave">保&nbsp; &nbsp;存</button>
 		</view>
 	</view>
 </template>
@@ -117,7 +117,7 @@
 <style lang="scss" >
 	body {
 		padding-top: 70rpx;
-		padding-bottom: 20rpx;
+		padding-bottom: 30rpx;
 	}
 	.companyHomepage {
 		

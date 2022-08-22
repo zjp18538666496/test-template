@@ -51,15 +51,15 @@
 						msg: "100，000元"
 					},
 					{
-						title: "工  艺",
+						title: "工"+ '\xa0\xa0\xa0\xa0\xa0\xa0' +"艺",
 						msg: "模座底面加工、正面机构加工安全..."
 					},
 					{
-						title: "材  料",
+						title: "材"+ '\xa0\xa0\xa0\xa0\xa0\xa0' +"料",
 						msg: "钢模版"
 					},
 					{
-						title: "型  号",
+						title: "型"+ '\xa0\xa0\xa0\xa0\xa0\xa0' +"号",
 						msg: "电子零部件"
 					},
 					{

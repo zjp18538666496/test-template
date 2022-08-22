@@ -6,7 +6,7 @@
 					<view>筛选条件</view>
 					<image
 						class="close-icon"
-						src="/static/sl.png"
+						src="/static/gb.png"
 						@click="close"
 					></image>
 				</view>
@@ -70,8 +70,8 @@
 				align-items: center;
 				margin-bottom: 10rpx;
 				.close-icon {
-					width: 20rpx;
-					height: 20rpx;
+					width: 30rpx;
+					height: 30rpx;
 					background-color: #1A1A1A;
 				}
 			}

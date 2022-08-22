@@ -10,15 +10,15 @@
 			</view>
 			<view class="data-list">
 				<view class="quote" v-for="item in 4" :key="item">
-					<image class="quote-img" src="/static/tc2.png"></image>
+					<image class="quote-img" src="/static/gst.png"></image>
 					<view class="quote-right">
-						<view class="quote-title">大量采购手机芯片</view>
+						<view class="quote-title">河南XXXXXX有限公司</view>
 						<view class="quote-details">联系方式：152XXXXXX49</view>
 						<view class="price-container">
 							<view class="price">
-								<text class="text1">预算：</text>
+								<text class="text1">报价：</text>
 								<text class="text2">￥3499</text>
-								<text class="text1">元</text>
+								<text class="text4">元</text>
 							</view>
 							<navigator class="quote-btn">成交</navigator>
 						</view>
@@ -48,15 +48,15 @@
 						msg: "100，000元"
 					},
 					{
-						title: "工  艺",
+						title: "工"+ '\xa0\xa0\xa0\xa0\xa0\xa0' +"艺",
 						msg: "模座底面加工、正面机构加工安全..."
 					},
 					{
-						title: "材  料",
+						title: "材"+ '\xa0\xa0\xa0\xa0\xa0\xa0' +"料",
 						msg: "钢模版"
 					},
 					{
-						title: "型  号",
+						title: "型"+ '\xa0\xa0\xa0\xa0\xa0\xa0' +"号",
 						msg: "电子零部件"
 					},
 					{
@@ -165,18 +165,22 @@
 
 						.price {
 							.text1 {
-								color: #999999;
-								font-size: 22rpx;
+								color: #666;
+								font-size: 28rpx;
 							}
 
 							.text2 {
 								color: #FF563F;
 								font-size: 32rpx;
 							}
+							.text4 {
+								color: #FF563F;
+								font-size: 28rpx;
+							}
 
 							.text3 {
 								color: #FF563F;
-								font-size: 22px;
+								font-size: 28rpx;
 							}
 						}
 

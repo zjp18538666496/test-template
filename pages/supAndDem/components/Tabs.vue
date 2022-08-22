@@ -4,13 +4,19 @@
 			<view>综合排序</view>
 			<image
 				class="arrow"
-				src=""
+				src="/static/xxtb.png"
 			></image>
 		</view>
 		<view 
 			class="one-tab"
 			@click="open"
-		>高级筛选</view>
+		>
+		<view>高级筛选</view>
+			<image
+				class="arrow"
+				src="/static/xxtb.png"
+			></image>
+		</view>
 	</view>
 	<FilterPopup
 		ref="FilterPopupRef"
@@ -35,13 +41,16 @@
 		display: flex;
 		justify-content: space-around;
 		.one-tab {
+			display: flex;
+			align-items: center;
 			color: #1A1A1A;
 			font-size: 32rpx;
 			font-weight: bold;
-			width: 130rpx;
+			width: 200rpx;
 			.arrow {
 				width: 12px;
-				height: 7px;
+				height: 12px;
+				margin-left: 10rpx;
 			}
 		}
 	}

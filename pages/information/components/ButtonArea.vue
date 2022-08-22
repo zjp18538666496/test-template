@@ -8,7 +8,7 @@
 						src="/static/gxtx.png"
 					></image>
 				</view>
-				<view class="tips">1</view>
+				<view class="tips">10</view>
 			</view>
 			<view class="button-text">供需提醒</view>
 		</view>
@@ -42,12 +42,6 @@
 		.one-button {
 			.top {
 				position: relative;
-				// .bg1 {
-				// 	background: linear-gradient(135deg, #00C0FF, #0F5FFF);
-				// }
-				// .bg2 {
-				// 	background: linear-gradient(-26deg, #539DFF, #507EFF);
-				// }
 				.image-container {
 					display: flex;
 					justify-content: center;

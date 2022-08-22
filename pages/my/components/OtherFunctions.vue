@@ -18,7 +18,7 @@
 						name: "企业认证",
 						src: "/static/qyrz.png",
 						className: "icon1",
-						url: ""
+						url: "/pages/my/enterpriseSettled/EnterpriseSettled"
 					},
 					{
 						name: "联系客服",
@@ -26,30 +26,30 @@
 						className: "icon2",
 						url: "/static/qyrz.png"
 					},
-					{
-						name: "问题反馈",
-						src: "/static/wtfk.png",
-						className: "icon3",
-						url: ""
-					},
-					{
-						name: "我的发票",
-						src: "/static/wdfp.png",
-						className: "icon4",
-						url: ""
-					},
-					{
-						name: "交易举报",
-						src: "/static/jyjb.png",
-						className: "icon5",
-						url: ""
-					},
-					{
-						name: "我的活动",
-						src: "/static/wdhd.png",
-						className: "icon6",
-						url: ""
-					},
+					// {
+					// 	name: "问题反馈",
+					// 	src: "/static/wtfk.png",
+					// 	className: "icon3",
+					// 	url: ""
+					// },
+					// {
+					// 	name: "我的发票",
+					// 	src: "/static/wdfp.png",
+					// 	className: "icon4",
+					// 	url: ""
+					// },
+					// {
+					// 	name: "交易举报",
+					// 	src: "/static/jyjb.png",
+					// 	className: "icon5",
+					// 	url: ""
+					// },
+					// {
+					// 	name: "我的活动",
+					// 	src: "/static/wdhd.png",
+					// 	className: "icon6",
+					// 	url: ""
+					// },
 					{
 						name: "我的成交",
 						src: "/static/wdcj.png",
@@ -60,56 +60,26 @@
 						name: "常用功能",
 						src: "/static/cygn.png",
 						className: "icon8",
-						url: ""
+						url: "/pages/my/accountSettings/AccountSettings"
 					},
-					{
-						name: "发布供应",
-						src: "/static/qyrz.png",
-						className: "icon8",
-						url: "/pages/my/supply/Supply"
-					},
-					{
-						name: "发布需求",
-						src: "/static/qyrz.png",
-						className: "icon8",
-						url: "/pages/my/demand/Demand"
-					},
-					{
-						name: "注册",
-						src: "/static/qyrz.png",
-						className: "icon8",
-						url: "/pages/my/signUp/SignUp"
-					},
-					{
-						name: "登录",
-						src: "/static/qyrz.png",
-						className: "icon8",
-						url: "/pages/my/longin/Longin"
-					},
-					{
-						name: "企业列表",
-						src: "/static/qyrz.png",
-						className: "icon8",
-						url: "/pages/my/enterpriseList/EnterpriseList"
-					},
-					{
-						name: "智能匹配",
-						src: "/static/qyrz.png",
-						className: "icon8",
-						url: "/pages/my/smartMatching/SmartMatching"
-					},
-					{
-						name: "企业入驻",
-						src: "/static/qyrz.png",
-						className: "icon8",
-						url: "/pages/my/enterpriseSettled/EnterpriseSettled"
-					},
-					{
-						name: "企业信息",
-						src: "/static/qyrz.png",
-						className: "icon8",
-						url: "/pages/my/companyInformation/CompanyInformation"
-					},
+					// {
+					// 	name: "发布供应",
+					// 	src: "/static/qyrz.png",
+					// 	className: "icon8",
+					// 	url: "/pages/my/supply/Supply"
+					// },
+					// {
+					// 	name: "企业列表",
+					// 	src: "/static/qyrz.png",
+					// 	className: "icon8",
+					// 	url: "/pages/my/enterpriseList/EnterpriseList"
+					// },
+					// {
+					// 	name: "企业信息",
+					// 	src: "/static/qyrz.png",
+					// 	className: "icon8",
+					// 	url: "/pages/my/companyInformation/CompanyInformation"
+					// },
 				]
 			}
 		},

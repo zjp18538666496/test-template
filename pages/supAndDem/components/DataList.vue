@@ -2,8 +2,9 @@
 	<view class="DataListContainer">
 		<view 
 			class="one-container"
-			v-for="item in 4"
+			v-for="item in 3"
 			:key="item"
+			@click="open"
 		>
 			<view class="top">
 				<view class="data-type">
@@ -50,21 +51,21 @@
 				<view class="container">
 					<image
 						class="icon1"
-						src=""
+						src="/static/wz.png"
 					></image>
 					<view class="text">河南 郑州</view>
 				</view>
 				<view class="container">
 					<image
 						class="icon2"
-						src=""
+						src="/static/sl.png"
 					></image>
 					<view class="text">888</view>
 				</view>
 				<view class="container">
 					<image
 						class="icon3"
-						src=""
+						src="/static/sj.png"
 					></image>
 					<view class="text">2022-4-29</view>
 				</view>
@@ -73,7 +74,22 @@
 	</view>
 </template>
 
-<script setup>
+<script>
+	export default {
+		data() {
+			return {
+			}
+		},
+		methods: {
+			open() {
+				uni.navigateTo({
+					url: "/pages/my/supplyFish/SupplyFish",
+					// pages/my/requirementsDetails/RequirementsDetails
+					
+				});
+			}
+		}
+	}
 </script>
 
 <style lang="scss">
@@ -164,14 +180,17 @@
 					display: flex;
 					align-items: center;
 					.icon1 {
-						width: 20rpx;
+						margin-right: 5rpx;
+						width: 22rpx;
 						height: 22rpx;
 					}
 					.icon2 {
+						margin-right: 5rpx;
 						width: 22rpx;
-						height: 18rpx;
+						height: 22rpx;
 					}
 					.icon3 {
+						margin-right: 5rpx;
 						width: 22rpx;
 						height: 22rpx;
 					}

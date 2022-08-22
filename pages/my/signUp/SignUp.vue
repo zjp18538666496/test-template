@@ -26,7 +26,7 @@
 				placeholder="确认密码,6-16位">
 			<view-text class="getProperty">|&nbsp获取验证码</view-text>
 		</view>
-		<view class="login">
+		<view class="login" @click="login">
 			注册
 		</view>
 		<view class="agreement">
@@ -48,6 +48,11 @@
 			Title
 		},
 		methods: {
+			login(){
+				uni.navigateTo({
+					url: '/pages/my/longin/Longin'
+				});
+			}
 		}
 	}
 </script>

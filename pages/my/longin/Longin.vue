@@ -12,13 +12,16 @@
 		</view>
 		<view class="input">
 			<view class="user">
-				<input type="text" placeholder="手机号">
+				<input type="text" placeholder-style="font-size:32rpx;color:#ACACAC;" placeholder="输入手机号">
 			</view>
 			<view class="password">
-				<input type="password" placeholder="请输入验证码">
-				<view-text class="verificationCode">{{ verificationCode }}</view-text>
+				<input type="password" placeholder-style="font-size:32rpx;color:#ACACAC;" placeholder="输入密码">
+				<view class="verificationCode">
+					<image src="/static/mmby.png"></image>
+				</view>
 			</view>
 		</view>
+		
 		<view class="agreement">
 			<image class="img" src="/static/consent.png"></image>
 			<view-text class="text1">我已阅读&nbsp</view-text>
@@ -27,7 +30,7 @@
 			<view-text class="text2">隐私政策</view-text>
 		</view>
 		<view @click="login" class="login">
-			登录
+			登&nbsp; &nbsp;录
 		</view>
 		<view class="doubt">
 			<view-text>验证码登录</view-text>
@@ -47,7 +50,7 @@
 	export default {
 		data() {
 			return {
-				loginName: "验证码登录",
+				loginName: "密码登录",
 				loginPrompt: "首次登录将自动注册",
 				verificationCode: "重新获取"
 			}
@@ -61,7 +64,7 @@
 					url: '/pages/index/index'
 				});
 			},
-			doubt(){
+			doubt() {
 				uni.navigateTo({
 					url: '/pages/my/signUp/SignUp'
 				});
@@ -77,7 +80,7 @@
 	}
 
 	.loginBox {
-		padding: 0 24rpx;
+		padding: 0 30rpx;
 		background-color: #fff;
 
 		.signQuickly {
@@ -137,6 +140,12 @@
 				font-family: PingFang SC;
 				font-weight: 500;
 				color: #2858FF;
+
+				image {
+					width: 30rpx;
+					height: 30rpx;
+					background: #DBDBDB;
+				}
 			}
 		}
 
@@ -183,7 +192,7 @@
 			height: 93rpx;
 			background: #2858FF;
 			border-radius: 46rpx;
-			font-size: 30rpx;
+			font-size: 32rpx;
 			font-family: PingFang SC;
 			font-weight: 500;
 			color: #FFFFFF;
@@ -191,8 +200,9 @@
 
 		.doubt {
 			display: flex;
-			justify-content: space-around;
+			justify-content: space-between;
 			margin-bottom: 365rpx;
+			padding: 0 40rpx;
 			font-size: 26rpx;
 			font-family: PingFang SC;
 			font-weight: 500;

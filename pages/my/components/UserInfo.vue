@@ -8,8 +8,7 @@
 			<view @click="switchSuppliers" class="left">
 				<image class="avatar" src="/static/chatHead.png"></image>
 				<view class="identity">
-					<image class="icon" src=""></image>
-					<view>需求方</view>
+					<image class="icon" src="/static/xqfqh.png"></image>
 				</view>
 			</view>
 			<view class="right">
@@ -17,18 +16,18 @@
 					<view class="username">共同富裕产业互助联盟</view>
 					<view @click="personalInformation" class="homepage">
 						<view>个人主页</view>
-						<image class="icon" src=""></image>
+						<image class="icon" src="/static/rightClick.png"></image>
 					</view>
 				</view>
 				<view class="authentication">
-					<image class="icon1" src=""></image>
+					<image class="icon1" src="/static/gfzr.png"></image>
 					<view class="auther-text">待企业认证</view>
-					<image class="icon2" src=""></image>
+					<image class="icon2" src="/static/xrk.png"></image>
 				</view>
 			</view>
 		</view>
 		<view class="VIP-container">
-			<image class="crown" src=""></image>
+			<image class="crown" src="/static/wg.png"></image>
 			<view class="vip-text">开通超级会员，尊享私人定制饮食</view>
 			<view class="receive">领取权益</view>
 		</view>
@@ -75,8 +74,8 @@
 			padding-right: 30rpx;
 
 			.icon {
-				width: 43rpx;
-				height: 40rpx;
+				width: 50rpx;
+				height: 50rpx;
 				display: block;
 				margin-left: 64rpx;
 			}
@@ -102,8 +101,8 @@
 					margin-top: -40rpx;
 					width: 114rpx;
 					height: 36rpx;
-					background: linear-gradient(-38deg, #33A0FF, #2852FF);
-					border-radius: 18rpx;
+					// background: linear-gradient(-38deg, #33A0FF, #2852FF);
+					// border-radius: 18rpx;
 					color: #FFFFFF;
 					font-size: 22rpx;
 					z-index: 2;
@@ -113,8 +112,8 @@
 					justify-content: center;
 
 					.icon {
-						width: 17rpx;
-						height: 15rpx;
+						width: 114rpx;
+						height: 36rpx;
 						display: block;
 						margin-right: 4rpx;
 					}
@@ -194,8 +193,8 @@
 
 			.crown {
 				width: 67rpx;
-				height: 52rpx;
-				background: linear-gradient(135deg, #E6B16B 0%, #FFEEDA 100%);
+				height: 67rpx;
+				// background: linear-gradient(135deg, #E6B16B 0%, #FFEEDA 100%);
 			}
 
 			.vip-text {

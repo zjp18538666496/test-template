@@ -186,7 +186,27 @@
 			}
 
 		}
-	],
+	    ,{
+            "path" : "pages/my/corporateActivities/CorporateActivities",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "企业活动",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/legalAid/LegalAid",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "法律援助",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
